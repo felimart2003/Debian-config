@@ -1,0 +1,6 @@
+2024/03/01-23:59:00.814 35e2 Creating DB /home/felipe/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb since it was missing.
+2024/03/01-23:59:00.823 35e2 Reusing MANIFEST /home/felipe/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/03/01-23:59:00.839 35f5 Level-0 table #5: started
+2024/03/01-23:59:00.844 35f5 Level-0 table #5: 712 bytes OK
+2024/03/01-23:59:00.853 35f5 Delete type=0 #3
+2024/03/01-23:59:00.853 35e2 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

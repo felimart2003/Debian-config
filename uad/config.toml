@@ -1,0 +1,8 @@
+[general]
+theme = "Dark"
+expert_mode = false
+
+[[devices]]
+device_id = "6a70985e"
+disable_mode = false
+multi_user_mode = true

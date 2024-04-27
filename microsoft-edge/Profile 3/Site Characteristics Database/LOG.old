@@ -1,0 +1,5 @@
+2024/04/27-14:17:56.124 1bbc Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/Site Characteristics Database/MANIFEST-000001
+2024/04/27-14:17:56.125 1bbc Recovering log #3
+2024/04/27-14:17:56.125 1bbc (ignoring error) /home/felipe/.config/microsoft-edge/Profile 3/Site Characteristics Database/000003.log: dropping 24644 bytes; Corruption: checksum mismatch
+2024/04/27-14:17:56.126 1bbc (ignoring error) /home/felipe/.config/microsoft-edge/Profile 3/Site Characteristics Database/000003.log: dropping 30 bytes; Corruption: missing start of fragmented record(2)
+2024/04/27-14:17:56.126 1bbc Reusing old log /home/felipe/.config/microsoft-edge/Profile 3/Site Characteristics Database/000003.log 

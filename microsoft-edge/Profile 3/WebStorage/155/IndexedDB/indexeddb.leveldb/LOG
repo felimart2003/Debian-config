@@ -1,0 +1,6 @@
+2024/04/04-03:43:37.799 cb2 Creating DB /home/felipe/.config/microsoft-edge/Profile 3/WebStorage/155/IndexedDB/indexeddb.leveldb since it was missing.
+2024/04/04-03:43:37.809 cb2 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/WebStorage/155/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/04/04-03:50:39.404 cb2 Level-0 table #5: started
+2024/04/04-03:50:39.407 cb2 Level-0 table #5: 811 bytes OK
+2024/04/04-03:50:39.411 cb2 Delete type=0 #3
+2024/04/04-03:50:39.411 cb2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

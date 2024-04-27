@@ -1,0 +1,27 @@
+2024/04/27-15:56:47.184 36b1 Reusing MANIFEST /home/felipe/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/04/27-15:56:47.189 36b1 Recovering log #303
+2024/04/27-15:56:47.190 36b1 Reusing old log /home/felipe/.config/vesktop/sessionData/Local Storage/leveldb/000303.log 
+2024/04/27-16:01:40.700 36b1 Level-0 table #306: started
+2024/04/27-16:01:40.711 36b1 Level-0 table #306: 57971 bytes OK
+2024/04/27-16:01:40.716 36b1 Delete type=0 #303
+2024/04/27-16:11:53.574 36b1 Level-0 table #308: started
+2024/04/27-16:11:53.584 36b1 Level-0 table #308: 30545 bytes OK
+2024/04/27-16:11:53.588 36b1 Delete type=0 #305
+2024/04/27-16:34:48.126 36b1 Level-0 table #310: started
+2024/04/27-16:34:48.132 36b1 Level-0 table #310: 22614 bytes OK
+2024/04/27-16:34:48.136 36b1 Delete type=0 #307
+2024/04/27-16:34:48.137 36b1 Compacting 4@0 + 1@1 files
+2024/04/27-16:34:48.143 36b1 Generated table #311@0: 120 keys, 60557 bytes
+2024/04/27-16:34:48.143 36b1 Compacted 4@0 + 1@1 files => 60557 bytes
+2024/04/27-16:34:48.147 36b1 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/27-16:34:48.147 36b1 Delete type=2 #306
+2024/04/27-16:34:48.147 36b1 Delete type=2 #310
+2024/04/27-16:34:48.148 36b1 Delete type=2 #308
+2024/04/27-16:34:48.148 36b1 Delete type=2 #302
+2024/04/27-16:34:48.148 36b1 Delete type=2 #300
+2024/04/27-16:55:48.126 36b1 Level-0 table #313: started
+2024/04/27-16:55:48.129 36b1 Level-0 table #313: 17785 bytes OK
+2024/04/27-16:55:48.132 36b1 Delete type=0 #309
+2024/04/27-17:13:48.127 36b0 Level-0 table #315: started
+2024/04/27-17:13:48.137 36b0 Level-0 table #315: 19427 bytes OK
+2024/04/27-17:13:48.141 36b0 Delete type=0 #312

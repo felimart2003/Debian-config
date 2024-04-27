@@ -1,0 +1,5 @@
+2024/04/27-14:17:20.409 199d Reusing MANIFEST /home/felipe/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/04/27-14:17:20.409 199d Recovering log #298
+2024/04/27-14:17:20.410 199d Level-0 table #302: started
+2024/04/27-14:17:20.414 199d Level-0 table #302: 72890 bytes OK
+2024/04/27-14:17:20.418 199d Delete type=0 #298

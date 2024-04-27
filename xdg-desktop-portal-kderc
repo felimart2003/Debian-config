@@ -1,0 +1,8 @@
+[FileDialogSize]
+2 screens: Height=662
+2 screens: Width=980
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Downloads/nerd-fonts-3.2.1.tar.gz,file:$HOME/Documents/git_add5.sh,file:$HOME/Pictures/Screenshots/Screenshot from 2024-02-11 00-19-59.png
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/Pictures/Screenshots/,file:$HOME/Documents/
+detailViewIconSize=48

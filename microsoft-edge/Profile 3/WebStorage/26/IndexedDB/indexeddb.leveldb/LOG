@@ -1,0 +1,6 @@
+2024/02/15-17:05:31.733 c2d Creating DB /home/felipe/.config/microsoft-edge/Profile 3/WebStorage/26/IndexedDB/indexeddb.leveldb since it was missing.
+2024/02/15-17:05:31.742 c2d Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/WebStorage/26/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/02/15-17:23:44.940 c2d Level-0 table #5: started
+2024/02/15-17:23:44.944 c2d Level-0 table #5: 10982 bytes OK
+2024/02/15-17:23:44.949 c2d Delete type=0 #3
+2024/02/15-17:23:44.949 c2d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

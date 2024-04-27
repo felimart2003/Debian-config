@@ -1,0 +1,7 @@
+2024/04/05-19:03:09.825 e78 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/WebStorage/150/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/04/05-19:03:09.825 e78 Recovering log #3
+2024/04/05-19:03:09.826 e78 Reusing old log /home/felipe/.config/microsoft-edge/Profile 3/WebStorage/150/IndexedDB/indexeddb.leveldb/000003.log 
+2024/04/05-19:03:49.649 e79 Level-0 table #5: started
+2024/04/05-19:03:49.652 e79 Level-0 table #5: 814 bytes OK
+2024/04/05-19:03:49.656 e79 Delete type=0 #3
+2024/04/05-19:03:49.656 e79 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

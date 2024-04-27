@@ -1,0 +1,15 @@
+2024/04/27-14:32:09.172 c5e Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/Sync Data/LevelDB/MANIFEST-000001
+2024/04/27-14:32:09.172 c5e Recovering log #399
+2024/04/27-14:32:09.173 c5e Reusing old log /home/felipe/.config/microsoft-edge/Profile 3/Sync Data/LevelDB/000399.log 
+2024/04/27-14:57:34.800 c60 Level-0 table #403: started
+2024/04/27-14:57:34.815 c60 Level-0 table #403: 79306 bytes OK
+2024/04/27-14:57:34.820 c60 Delete type=0 #399
+2024/04/27-14:57:34.820 c60 Compacting 4@0 + 1@1 files
+2024/04/27-14:57:34.830 c60 Generated table #404@0: 785 keys, 86891 bytes
+2024/04/27-14:57:34.830 c60 Compacted 4@0 + 1@1 files => 86891 bytes
+2024/04/27-14:57:34.836 c60 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/27-14:57:34.836 c60 Delete type=2 #393
+2024/04/27-14:57:34.836 c60 Delete type=2 #396
+2024/04/27-14:57:34.836 c60 Delete type=2 #398
+2024/04/27-14:57:34.836 c60 Delete type=2 #403
+2024/04/27-14:57:34.836 c60 Delete type=2 #400

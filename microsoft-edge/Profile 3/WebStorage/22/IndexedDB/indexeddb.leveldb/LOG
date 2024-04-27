@@ -1,0 +1,15 @@
+2024/04/10-15:36:04.839 1901 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/WebStorage/22/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/04/10-15:36:04.839 1901 Recovering log #4
+2024/04/10-15:36:04.840 1901 Reusing old log /home/felipe/.config/microsoft-edge/Profile 3/WebStorage/22/IndexedDB/indexeddb.leveldb/000004.log 
+2024/04/10-16:51:31.809 1902 Level-0 table #8: started
+2024/04/10-16:51:31.817 1902 Level-0 table #8: 130866 bytes OK
+2024/04/10-16:51:31.822 1902 Delete type=0 #4
+2024/04/10-16:51:31.823 1902 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/04/10-16:51:31.824 1902 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00`\xc1*\x98\xecxB\x00\x03\x00\x00\x00\x00\x00\x00\x14@' @ 773 : 1
+2024/04/10-16:51:31.824 1902 Compacting 1@1 + 1@2 files
+2024/04/10-16:51:31.829 1902 Generated table #9@1: 87 keys, 9598 bytes
+2024/04/10-16:51:31.829 1902 Compacted 1@1 + 1@2 files => 9598 bytes
+2024/04/10-16:51:31.833 1902 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/10-16:51:31.834 1902 Delete type=2 #8
+2024/04/10-16:51:31.834 1902 Delete type=2 #5
+2024/04/10-16:51:31.834 1902 Manual compaction at level-1 from '\x00\x04\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00`\xc1*\x98\xecxB\x00\x03\x00\x00\x00\x00\x00\x00\x14@' @ 773 : 1 .. (end); will stop at (end)
