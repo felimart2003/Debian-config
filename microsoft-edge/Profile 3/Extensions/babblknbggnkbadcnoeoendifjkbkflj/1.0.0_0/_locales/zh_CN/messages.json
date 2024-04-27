@@ -1,0 +1,320 @@
+{
+   "badge_setting": {
+      "message": "扩展图标"
+   },
+   "badge_time": {
+      "message": "显示时间"
+   },
+   "btn_add": {
+      "message": "添加"
+   },
+   "btn_cancel": {
+      "message": "取消"
+   },
+   "btn_del": {
+      "message": "删除"
+   },
+   "btn_edit": {
+      "message": "修改"
+   },
+   "btn_enable": {
+      "message": "启用"
+   },
+   "btn_save": {
+      "message": "保存"
+   },
+   "btn_saved": {
+      "message": "已保存"
+   },
+   "btn_speak": {
+      "message": "朗读"
+   },
+   "btn_stop": {
+      "message": "停止"
+   },
+   "command_saytime": {
+      "message": "语音报时"
+   },
+   "dnd_audible": {
+      "message": "浏览器播放其它音频时不报时"
+   },
+   "dnd_audible_desc": {
+      "message": "如在浏览器中观看视频、播放音乐、参加视频会议等情况"
+   },
+   "dnd_fullscreen": {
+      "message": "浏览器全屏状态时不报时"
+   },
+   "dnd_fullscreen_desc": {
+      "message": "如浏览器全屏状态下的 Web 幻灯片演示"
+   },
+   "dnd_label": {
+      "message": "免打扰"
+   },
+   "dnd_locked": {
+      "message": "系统锁屏时不报时"
+   },
+   "dnd_locked_desc": {
+      "message": "已锁屏但非休眠的状态（系统休眠时始终不报时）"
+   },
+   "extDescription": {
+      "message": "提供整点语音报时，自定义提醒，以及显示时间功能。"
+   },
+   "extName": {
+      "message": "报时时钟"
+   },
+   "hour_12": {
+      "message": "12 小时"
+   },
+   "hour_24": {
+      "message": "24 小时"
+   },
+   "hour_format": {
+      "message": "小时格式"
+   },
+   "invalid_content": {
+      "message": "请输入内容"
+   },
+   "invalid_date": {
+      "message": "请输入日期"
+   },
+   "invalid_days": {
+      "message": "请至少选择一天"
+   },
+   "invalid_time": {
+      "message": "请输入时间"
+   },
+   "keyboard_shortcuts": {
+      "message": "快捷键设置"
+   },
+   "max_day_in_month": {
+      "message": "$2没有$1天"
+   },
+   "month_1": {
+      "message": "一月"
+   },
+   "month_10": {
+      "message": "十月"
+   },
+   "month_11": {
+      "message": "十一月"
+   },
+   "month_12": {
+      "message": "十二月"
+   },
+   "month_2": {
+      "message": "二月"
+   },
+   "month_3": {
+      "message": "三月"
+   },
+   "month_4": {
+      "message": "四月"
+   },
+   "month_5": {
+      "message": "五月"
+   },
+   "month_6": {
+      "message": "六月"
+   },
+   "month_7": {
+      "message": "七月"
+   },
+   "month_8": {
+      "message": "八月"
+   },
+   "month_9": {
+      "message": "九月"
+   },
+   "month_end": {
+      "message": "最后一天"
+   },
+   "mute_label": {
+      "message": "暂停所有系统通知和语音播报"
+   },
+   "mute_text": {
+      "message": "临时暂停"
+   },
+   "mute_warning": {
+      "message": "所有系统通知和语音播报均已暂停。"
+   },
+   "notify_button_settings": {
+      "message": "扩展设置"
+   },
+   "notify_close_1": {
+      "message": "1分钟后关闭"
+   },
+   "notify_close_10": {
+      "message": "10分钟后关闭"
+   },
+   "notify_close_3": {
+      "message": "3分钟后关闭"
+   },
+   "notify_close_5": {
+      "message": "5分钟后关闭"
+   },
+   "notify_close_auto": {
+      "message": "几秒后关闭"
+   },
+   "notify_close_never": {
+      "message": "手工关闭"
+   },
+   "notify_task_title": {
+      "message": "提醒"
+   },
+   "notify_time_title": {
+      "message": "当前时间"
+   },
+   "notify_ways": {
+      "message": "提醒方式"
+   },
+   "options_title": {
+      "message": "报时时钟设置"
+   },
+   "popup_clock_analog": {
+      "message": "模拟时钟"
+   },
+   "popup_clock_digital": {
+      "message": "数字时钟"
+   },
+   "popup_date": {
+      "message": "显示日期"
+   },
+   "popup_reminder": {
+      "message": "显示今天的后续提醒"
+   },
+   "popup_reminder_header": {
+      "message": "今天的后续提醒"
+   },
+   "popup_second": {
+      "message": "显示秒"
+   },
+   "popup_setting": {
+      "message": "点击扩展"
+   },
+   "reminder_content": {
+      "message": "提醒内容"
+   },
+   "reminder_date": {
+      "message": "提醒日期"
+   },
+   "reminder_days": {
+      "message": "哪几天"
+   },
+   "reminder_edit_title": {
+      "message": "设置提醒"
+   },
+   "reminder_expired": {
+      "message": "已过期"
+   },
+   "reminder_time": {
+      "message": "提醒时间"
+   },
+   "reminder_type": {
+      "message": "重复类型"
+   },
+   "repeat_day": {
+      "message": "每天"
+   },
+   "repeat_month": {
+      "message": "每月"
+   },
+   "repeat_once": {
+      "message": "仅一次"
+   },
+   "repeat_week": {
+      "message": "每周"
+   },
+   "repeat_year": {
+      "message": "每年"
+   },
+   "shortcuts_for": {
+      "message": "（显示时间、语音报时）"
+   },
+   "system_notify": {
+      "message": "系统通知"
+   },
+   "tab_icon": {
+      "message": "时钟"
+   },
+   "tab_other": {
+      "message": "其它设置"
+   },
+   "tab_reminder": {
+      "message": "自定义提醒"
+   },
+   "tab_time": {
+      "message": "报时设置"
+   },
+   "tab_tts": {
+      "message": "语音设置"
+   },
+   "timer_interval": {
+      "message": "报时周期"
+   },
+   "timer_interval_10": {
+      "message": "每 10 分钟 (0, 10, 20, 30, 40, 50, 60 分)"
+   },
+   "timer_interval_120": {
+      "message": "每 2 小时 (0, 2, 4, 6, 8, 10, 12 小时)"
+   },
+   "timer_interval_15": {
+      "message": "每 15 分钟 (0, 15, 30, 45, 60 分)"
+   },
+   "timer_interval_180": {
+      "message": "每 3 小时 (0, 3, 6, 9, 12 小时)"
+   },
+   "timer_interval_20": {
+      "message": "每 20 分钟 (0, 20, 40, 60 分)"
+   },
+   "timer_interval_30": {
+      "message": "每 30 分钟 (0, 30, 60 分)"
+   },
+   "timer_interval_5": {
+      "message": "每 5 分钟 (0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60 分)"
+   },
+   "timer_interval_60": {
+      "message": "每 1 小时 (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 小时)"
+   },
+   "tts_desc": {
+      "message": "Web 语音引擎包括操作系统自带的 TTS 以及浏览器提供的远程 TTS 。前者可以在操作系统设置中自行调整，后者依赖网络连接。"
+   },
+   "tts_engine": {
+      "message": "语音引擎"
+   },
+   "tts_rate": {
+      "message": "语速"
+   },
+   "tts_summary": {
+      "message": "关于文本转语音（TTS)"
+   },
+   "tts_test_text": {
+      "message": "测试内容"
+   },
+   "tts_volume": {
+      "message": "音量"
+   },
+   "voice_notify": {
+      "message": "语音播报"
+   },
+   "week_0": {
+      "message": "日"
+   },
+   "week_1": {
+      "message": "一"
+   },
+   "week_2": {
+      "message": "二"
+   },
+   "week_3": {
+      "message": "三"
+   },
+   "week_4": {
+      "message": "四"
+   },
+   "week_5": {
+      "message": "五"
+   },
+   "week_6": {
+      "message": "六"
+   }
+}

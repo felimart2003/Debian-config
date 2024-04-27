@@ -1,0 +1,40 @@
+body {
+  font-size: 16px;
+}
+
+.btn {
+  width: 5rem;
+}
+.btn.btn-sm {
+  width: 4rem;
+}
+.icon-button {
+  cursor: pointer;
+}
+.time-right {
+  padding-top: calc(.375rem + 1px);
+  padding-left: 0;
+}
+
+/* adjust page-item and page-item for month and week select*/
+li.page-item {
+  cursor: pointer;
+  text-align: center;
+}
+#task-repeat-week li.page-item {
+  width: 3.5rem;
+}
+#task-repeat-month li.page-item {
+  width: 3rem;
+  font-size: 14px;
+}
+#task-repeat-month .page-item:first-child .page-link,
+#task-repeat-month .page-item:last-child .page-link {
+  border-radius: 0;
+}
+#task-month-10 .page-link,#task-month-20 .page-link {
+  border-bottom: 0 !important;
+}
+.page-item.active .page-link {
+  border: 1px solid #dee2e6 !important;
+}

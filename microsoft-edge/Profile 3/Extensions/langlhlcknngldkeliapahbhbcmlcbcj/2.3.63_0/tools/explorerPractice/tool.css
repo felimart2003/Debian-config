@@ -1,0 +1,53 @@
+body.lichessTools section.explorer-box span.lichessTools-explorerPractice {
+  padding: 0 7px;
+  cursor: pointer;
+}
+
+body.lichessTools section.explorer-box span.lichessTools-explorerPractice.active:before {
+  color:black;
+  transform:scale(1.2);
+}
+
+
+@media not print and (prefers-color-scheme: dark) {
+  body.lichessTools.system section.explorer-box span.lichessTools-explorerPractice.active:before {
+      color: white;
+  }
+}
+
+body.lichessTools.dark section.explorer-box span.lichessTools-explorerPractice.active:before, 
+body.lichessTools.transp section.explorer-box span.lichessTools-explorerPractice.active:before {
+    color: white;
+}
+
+
+body.lichessTools section.explorer-box.lichessTools-explorerPracticeInAnalysis table.moves {
+  display:none;
+}
+
+body.lichessTools .explorer-box .moves tbody tr.sum.lichessTools-sumClick td {
+  cursor:pointer;
+}
+
+body.lichessTools cg-board label.lichessTools-explorerPractice {
+  z-index:100000;
+  position: absolute;
+}
+
+body.lichessTools cg-board label.lichessTools-explorerPractice span {
+  border-radius:10%;
+  background: #80808040;
+  color: white;
+  text-shadow: 1px 1px #808080;
+}
+
+body.lichessTools cg-board label.lichessTools-explorerPractice.black span {
+  color: black;
+  text-shadow: 1px 1px #808080;
+}
+
+/* Prettier Lichess CSS */
+
+body.lichessTools.lichessTools-prettier section.explorer-box span.lichessTools-explorerPractice.active:before {
+  color:black;
+}

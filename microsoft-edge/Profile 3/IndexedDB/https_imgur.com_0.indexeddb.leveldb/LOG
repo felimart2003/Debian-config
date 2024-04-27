@@ -1,0 +1,3 @@
+2024/04/05-18:03:41.199 e78 Creating DB /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_imgur.com_0.indexeddb.leveldb since it was missing.
+2024/04/05-18:03:41.207 e78 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_imgur.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/05-18:03:41.677 e7a Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

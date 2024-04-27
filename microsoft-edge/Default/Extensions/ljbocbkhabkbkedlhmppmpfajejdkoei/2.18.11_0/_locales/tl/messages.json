@@ -1,0 +1,2234 @@
+{
+  "extName": {
+    "message": "Toucan - Pag-aaral ng wika"
+  },
+  "extShortName": {
+    "message": "Toucan"
+  },
+  "extDescription": {
+    "message": "Alamin ang isang bagong wika sa pamamagitan lamang ng pag-browse sa internet"
+  },
+  "tryToucanOnPage": {
+    "message": "Try out Toucan on this page."
+  },
+  "noPagePermissions": {
+    "message": "Toucan currently does not have permissions to run code on your current page. Before giving us permissions try it out."
+  },
+  "addingToPage": {
+    "message": "Adding to page..."
+  },
+  "tryOnThisPage": {
+    "message": "Try on this page"
+  },
+  "allowOnThisSite": {
+    "message": "Allow on this site"
+  },
+  "toucanIsTemporarilyActivated": {
+    "message": "Toucan is temporarily activated"
+  },
+  "ifYouLikeToucanAllowAccess": {
+    "message": "If you’d like Toucan to work next time you visit this site, you need to allow Toucan access."
+  },
+  "additionalPermissionNeedAcrossTheWeb": {
+    "message": "Additional permissions are needed for Toucan to work across the web"
+  },
+  "checkBrowserWindowForPrompt": {
+    "message": "Check any open browser windows for the prompt after clicking the link below."
+  },
+  "allowAccess": {
+    "message": "Allow Access"
+  },
+  "enableAcrossMultipleSites": {
+    "message": "Enable Toucan across multiple sites"
+  },
+  "allowToucanToWorkOnTopSites": {
+    "message": "Allow Toucan to work across top sites on the web or on all sites so you won’t need to grant access every time you visit."
+  },
+  "youCanPersonalizeAndSaveSettings": {
+    "message": "You can personalize and save your settings with a Toucan account."
+  },
+  "signUpNow": {
+    "message": "Sign up now"
+  },
+  "todaysGoal": {
+    "message": "Today's goal"
+  },
+  "seenWordsProgress": {
+    "message": "{{seen}} / {{goal}} words"
+  },
+  "youEarnedAFreeMonthOfPremiumToShare": {
+    "message": "You earned a free month of Premium to share!"
+  },
+  "viewMostRecentProgress": {
+    "message": "View most recent progress report"
+  },
+  "numberOfTranslations": {
+    "message": "Number of translations"
+  },
+  "highlightToTranslate": {
+    "message": "Highlight to Translate"
+  },
+  "translateAnyTextByHighlighting": {
+    "message": "Translate any text on a page by highlighting it."
+  },
+  "allowOnSite": {
+    "message": "Allow on {{site}}"
+  },
+  "thisSite": {
+    "message": "this site"
+  },
+  "siteNotCompatibleYet": {
+    "message": "This site isn't compatible with Toucan yet."
+  },
+  "translationsShowUpOnSite": {
+    "message": "Translations show up on this site."
+  },
+  "translationsWontShowWUpOnSite": {
+    "message": "Translations won't show up on this site."
+  },
+  "remindMeToUnpauseLater": {
+    "message": "Remind me to unpause later"
+  },
+  "pausingToucan": {
+    "message": "pausing toucan"
+  },
+  "oneHour": {
+    "message": "1 hour"
+  },
+  "until6pm": {
+    "message": "Until 6 p.m."
+  },
+  "daily9amTo6pm": {
+    "message": "Daily 9 a.m. to 6 p.m."
+  },
+  "indefinitely": {
+    "message": "Indefinitely"
+  },
+  "optionMeanToucanWithNoLongerWork": {
+    "message": "This option means Toucan will no longer work on any sites you visit."
+  },
+  "confirm": {
+    "message": "confirm"
+  },
+  "helpUsImproveToucan": {
+    "message": "Help us improve Toucan"
+  },
+  "tellUseMoreWhyYouPaused": {
+    "message": "Tell us more about why you paused Toucan with a <0>{{surveyLength}}</0>."
+  },
+  "forFiveMinutes": {
+    "message": "for 5 minutes"
+  },
+  "forOneHour": {
+    "message": "for 1 hour"
+  },
+  "moreLanguagesAreComingSoon": {
+    "message": "More languages are coming soon!"
+  },
+  "utilThenToucansPausing": {
+    "message": "Until then, Toucan is pausing."
+  },
+  "chooseAnotherLanguage": {
+    "message": "Choose another language"
+  },
+  "toucanIsState": {
+    "message": "Toucan is <0>{{state}}</0>"
+  },
+  "youPausedToucan": {
+    "message": "You paused Toucan <0>{{state}}</0>"
+  },
+  "on": {
+    "message": "On"
+  },
+  "off": {
+    "message": "Off"
+  },
+  "needToTurnOffAllTranslations": {
+    "message": "Need to pause translations for a bit? Just tap this toggle."
+  },
+  "switchToucanBackOnOrEditDuration": {
+    "message": "Switch Toucan back on or edit the duration to set a timer."
+  },
+  "turnToucanBackOn": {
+    "message": "Turn Toucan back on"
+  },
+  "editDuration": {
+    "message": "Edit the duration"
+  },
+  "dashboard": {
+    "message": "Dashboard"
+  },
+  "feedback": {
+    "message": "Feedback"
+  },
+  "english": {
+    "message": "English"
+  },
+  "french": {
+    "message": "French"
+  },
+  "german": {
+    "message": "German"
+  },
+  "italian": {
+    "message": "Italian"
+  },
+  "japanese": {
+    "message": "Japanese"
+  },
+  "korean": {
+    "message": "Korean"
+  },
+  "portuguese": {
+    "message": "Portuguese"
+  },
+  "spanish": {
+    "message": "Spanish"
+  },
+  "unitedStates": {
+    "message": "United States"
+  },
+  "france": {
+    "message": "France"
+  },
+  "germany": {
+    "message": "Germany"
+  },
+  "italy": {
+    "message": "Italy"
+  },
+  "japan": {
+    "message": "Japan"
+  },
+  "korea": {
+    "message": "Korea"
+  },
+  "brazil": {
+    "message": "Brazil"
+  },
+  "spain": {
+    "message": "Spain"
+  },
+  "arabic": {
+    "message": "Arabic"
+  },
+  "chinese": {
+    "message": "Chinese"
+  },
+  "farsi": {
+    "message": "Farsi"
+  },
+  "greek": {
+    "message": "Greek"
+  },
+  "hebrew": {
+    "message": "Hebrew"
+  },
+  "hindi": {
+    "message": "Hindi"
+  },
+  "irish": {
+    "message": "Irish"
+  },
+  "polish": {
+    "message": "Polish"
+  },
+  "russian": {
+    "message": "russian"
+  },
+  "swedish": {
+    "message": "Swedish"
+  },
+  "turkish": {
+    "message": "Turkish"
+  },
+  "vietnamese": {
+    "message": "Vietnamese"
+  },
+  "zulu": {
+    "message": "Zulu"
+  },
+  "other": {
+    "message": "Other"
+  },
+  "signUpOrLoginAccessSettings": {
+    "message": "Sign up or log in to access your settings."
+  },
+  "lampWithLaptop": {
+    "message": "Lamp with laptop"
+  },
+  "saveYourProgressForFree": {
+    "message": "Save your <0 /> progress for free"
+  },
+  "welcomeBack": {
+    "message": "Welcome back!"
+  },
+  "resetYourPassword": {
+    "message": "Reset your <0 /> password"
+  },
+  "createAnAccountToPersonalize": {
+    "message": "Create an account to save and <0>personalize</0> <1 /> <2>your learning progress</2> with Toucan."
+  },
+  "logIntoYourAccountToContinue": {
+    "message": "Log into your Toucan account to continue learning."
+  },
+  "forgotPasswordEnterEmail": {
+    "message": "Enter the email associated with your account and we’ll send you an email to reset it. <0 /><1 />If you don’t receive an email, you may be using Toucan anonymously and have not registered for an account yet. <2>Sign up</2> with your email now."
+  },
+  "continueWithGoogle": {
+    "message": "Continue with Google"
+  },
+  "continueWithEmail": {
+    "message": "Continue with email"
+  },
+  "logInWithGoogle": {
+    "message": "Log in with Google"
+  },
+  "logInWithEmail": {
+    "message": "Log in with email"
+  },
+  "eightCharsMin": {
+    "message": "8 characters minimum"
+  },
+  "name": {
+    "message": "Name"
+  },
+  "email": {
+    "message": "Email"
+  },
+  "password": {
+    "message": "Password"
+  },
+  "createAPassword": {
+    "message": "Create a password"
+  },
+  "pleaseIncludeName": {
+    "message": "Please include your name."
+  },
+  "pleaseEnterValidEmail": {
+    "message": "Please enter a valid email."
+  },
+  "passwordMustBeEightChars": {
+    "message": "Your password should be at least 8 characters."
+  },
+  "signUp": {
+    "message": "Sign Up"
+  },
+  "logIn": {
+    "message": "Log In"
+  },
+  "openGmail": {
+    "message": "Open Gmail"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "passwordResetHasBeenSent": {
+    "message": "Password reset email sent."
+  },
+  "less": {
+    "message": "Less"
+  },
+  "more": {
+    "message": "More"
+  },
+  "aLot": {
+    "message": "A lot"
+  },
+  "premium": {
+    "message": "Premium"
+  },
+  "seeHowMuchYouAccomplishedFriday": {
+    "message": "See how much you accomplished Friday."
+  },
+  "seeHowMuchYouAccomplishedYesterday": {
+    "message": "See how much you accomplished yesterday."
+  },
+  "yourDailyProgress": {
+    "message": "Your daily progress"
+  },
+  "youSayNumWords": {
+    "message": "You saw {{num}} words"
+  },
+  "youHaveAOneDayComplete": {
+    "message": "You have 1 day complete!"
+  },
+  "greatJob": {
+    "message": "Great job!"
+  },
+  "yourOnANumDayStreak": {
+    "message": "You’re on a {{num}} day streak!"
+  },
+  "youCompletedAFiveDayStreak": {
+    "message": "You completed a 5-day streak!"
+  },
+  "weekendBonusAchieved": {
+    "message": "Weekend bonus achieved!"
+  },
+  "mondayStreak": {
+    "message": "M"
+  },
+  "tuesdayStreak": {
+    "message": "T"
+  },
+  "wednesdayStreak": {
+    "message": "W"
+  },
+  "thursdayStreak": {
+    "message": "T"
+  },
+  "fridayStreak": {
+    "message": "F"
+  },
+  "saturdayStreak": {
+    "message": "Saturday"
+  },
+  "sundayStreak": {
+    "message": "Sunday"
+  },
+  "achieveYourGoalFaster": {
+    "message": "Achieve your goal faster"
+  },
+  "changeHowManyWordsYouSee": {
+    "message": "Change how many words you see"
+  },
+  "enableToucanOnAllSites": {
+    "message": "Enable Toucan on all sites you visit"
+  },
+  "youWillSeeMoreTranslatedWordsByBrowsing": {
+    "message": "You’ll see more translated words by browsing and reading more web pages with Toucan."
+  },
+  "hereAreYourTopNumWords": {
+    "message": "Your top words"
+  },
+  "itsANewDayViewTodayGoal": {
+    "message": "It’s a new day! View today’s goal."
+  },
+  "shareAFreeMonth": {
+    "message": "Share a free month of Premium"
+  },
+  "youEarnedAFreeMonthOfPremiumToShareWith": {
+    "message": "You earned a free month of Toucan Premium to share with someone you know."
+  },
+  "copied": {
+    "message": "Copied"
+  },
+  "copyLink": {
+    "message": "Copy Link"
+  },
+  "overNumPeopleHaveShared": {
+    "message": "Over {{num}} people have shared this today!"
+  },
+  "share": {
+    "message": "share"
+  },
+  "unlockWithPremium": {
+    "message": "Unlock with Premium"
+  },
+  "zeroFreeUsesRemaining": {
+    "message": "0 free uses remaining"
+  },
+  "accessHighlightToTranslationFeatureUpsell": {
+    "message": "Access the highlight-to-translate feature along with unlimited games and premium density settings."
+  },
+  "getPremium": {
+    "message": "Get Premium"
+  },
+  "weAreWorkingToIncreaseLimits": {
+    "message": "We’re working to increase this limit and keep load times short. In the meantime, try highlighting up to 100 words at one time to translate."
+  },
+  "dontShowAgain": {
+    "message": "Don’t show again"
+  },
+  "overOneHundredWordLimit": {
+    "message": "Over 100 word limit"
+  },
+  "wantSpecificWordOrEventFullSentencesTranlated": {
+    "message": "Want specific words or even full sentences translated without leaving the page? You can do it with just 2-clicks."
+  },
+  "clickAndDragToTranslate": {
+    "message": "Click and drag to highlight words you want to translate. Then, click the <0>{{inLanguage}}</0> button that appears to see the words in {{lang}}."
+  },
+  "okIGotIt": {
+    "message": "Okay, I got it"
+  },
+  "forToucanToWorkOnAllSites": {
+    "message": "For Toucan to work on all sites, <0>allow additional permissions.</0>"
+  },
+  "toucanIsUnableToPlayAudio": {
+    "message": "Toucan is unable to play audio on this site."
+  },
+  "save": {
+    "message": "Save"
+  },
+  "iKnowThis": {
+    "message": "I know this"
+  },
+  "reportError": {
+    "message": "Report error"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "clickToOpenSettings": {
+    "message": "Click to open settings"
+  },
+  "unlockThisFeature": {
+    "message": "Unlock this feature"
+  },
+  "yourLanguageHasChangedToLang": {
+    "message": "Your language has changed to {{lang}}."
+  },
+  "clickHereToRefreshPage": {
+    "message": "Click here to refresh the page."
+  },
+  "ifYouNeedALittleHelpGettingStarted": {
+    "message": "If you need a little help getting started, click the link below and we’ll show you how to make the most out of your Toucan experience."
+  },
+  "gettingStarted": {
+    "message": "Getting Started"
+  },
+  "hereAreSomeOfTheWordsYouveLearned": {
+    "message": "Here are some words you’ve learned recently..."
+  },
+  "letsPractice": {
+    "message": "Let's practice"
+  },
+  "practice": {
+    "message": "Practice"
+  },
+  "toucanIsPaused": {
+    "message": "Toucan is paused"
+  },
+  "allowOnCurrentDomain": {
+    "message": "Allow on current {{domain}}"
+  },
+  "dismissUntilTomorrow": {
+    "message": "Dismiss until tomorrow"
+  },
+  "dontShowAgainOnThisSite": {
+    "message": "Don’t show again on this site"
+  },
+  "weAreUnableToReachOurServers": {
+    "message": "We are unable to reach our servers. Please try again soon"
+  },
+  "seemsLikeChromeIsRunningIntoIssues": {
+    "message": "Seems like Chrome is running into some issues. You may need to restart your browser to resolve these issues."
+  },
+  "toucanIsRunningIntoIssuesNotCookieAccess": {
+    "message": "Toucan is running in issues because we can not access our sites cookies. Please enable host access to \"{{site}}\""
+  },
+  "show": {
+    "message": "show"
+  },
+  "hide": {
+    "message": "hide"
+  },
+  "back": {
+    "message": "Back"
+  },
+  "forgotYourPassword": {
+    "message": "Forgot your password?"
+  },
+  "dontHaveAnAccountYet": {
+    "message": "Don’t have an account yet?"
+  },
+  "alreadyHaveAnAccount": {
+    "message": "Already have an account?"
+  },
+  "twitter": {
+    "message": "Twitter"
+  },
+  "facebook": {
+    "message": "Facebook"
+  },
+  "contextMenuSettings": {
+    "message": "Settings"
+  },
+  "contextMenuPause": {
+    "message": "Pause"
+  },
+  "contextMenuUnpause": {
+    "message": "Unpause"
+  },
+  "contextMenuChangeLanguage": {
+    "message": "Change language {{flagEmoji}}"
+  },
+  "contextMenuDoctor": {
+    "message": "Doctor"
+  },
+  "untilTomorrow": {
+    "message": "Until tomorrow"
+  },
+  "editAccount": {
+    "message": "Edit account"
+  },
+  "change": {
+    "message": "Change"
+  },
+  "faqs": {
+    "message": "FAQs"
+  },
+  "contactUs": {
+    "message": "contact us"
+  },
+  "flagOfCountry": {
+    "message": "flag of {{country}}"
+  },
+  "setPauseDuration": {
+    "message": "Set pause duration"
+  },
+  "untilThenToucansPausing": {
+    "message": "Until then, Toucan is pausing."
+  },
+  "lock": {
+    "message": "lock"
+  },
+  "dontLoseToucanSettings": {
+    "message": "Don’t lose your Toucan settings!"
+  },
+  "signUpSoNeverLoseProgress": {
+    "message": "Sign up for a free Toucan account so you never lose your preferences and learning progress."
+  },
+  "signUpForFree": {
+    "message": "Sign up for free"
+  },
+  "lookingForHelp": {
+    "message": "Looking for help?"
+  },
+  "darkMode": {
+    "message": "Dark Mode"
+  },
+  "showDailyReport": {
+    "message": "Show daily report"
+  },
+  "automaticallyShowWhenReady": {
+    "message": "Automatically show when ready"
+  },
+  "seeBlockedSites": {
+    "message": "See blocked sites"
+  },
+  "blockedSites": {
+    "message": "Blocked sites"
+  },
+  "translationsWontAppearOnBlockedSites": {
+    "message": "Translations won’t appear on blocked sites."
+  },
+  "blockSite": {
+    "message": "Block Site"
+  },
+  "siteUrl": {
+    "message": "Site URL"
+  },
+  "siteCom": {
+    "message": "site.com"
+  },
+  "pleaseEnterAValidDomain": {
+    "message": "Please enter a valid domain."
+  },
+  "thatDomainHasAlreadyBeenAdded": {
+    "message": "That domain has already been added."
+  },
+  "toucansHavingTroubleAddingThisUrl": {
+    "message": "Toucan’s having trouble adding this site. Please contact info@jointoucan.com if this problem continues."
+  },
+  "keyboardShortcuts": {
+    "message": "Keyboard hotkeys"
+  },
+  "editShortcuts": {
+    "message": "Edit hotkey"
+  },
+  "shortcut": {
+    "message": "Hotkey: {{keyCombination}}"
+  },
+  "paused": {
+    "message": "Paused"
+  },
+  "extCommandToucanOnOff": {
+    "message": "Pause/unpause Toucan for a duration of time Keyboard hotkey to pause/unpause Toucan"
+  },
+  "extCommandAccessSidebar": {
+    "message": "Open settings panel Keyboard hotkey to open sidebar"
+  },
+  "changeLanguage": {
+    "message": "Change language"
+  },
+  "iSpeak": {
+    "message": "I speak..."
+  },
+  "andIWantToLearn": {
+    "message": "and I want to learn..."
+  },
+  "saveChanges": {
+    "message": "Save Changes"
+  },
+  "loadingExtensionLibrary": {
+    "message": "Loading extension library..."
+  },
+  "blockedSitesInputTooltip": {
+    "message": "The best way to block Toucan from translating words across an entire site is to enter the domain name only like youtube.com or drive.google.com. If you encounter any issues, please contact us at info@jointoucan.com."
+  },
+  "notifications": {
+    "message": "Notifications"
+  },
+  "notificationsHowAreYouEnjoying": {
+    "message": "How are you enjoying Toucan?"
+  },
+  "notificationsGladYoureLiking": {
+    "message": "Glad you’re liking Toucan so far!"
+  },
+  "notificationsLeaveAReview": {
+    "message": "Leave a review"
+  },
+  "notificationsLetUsKnow": {
+    "message": "Let us know how we can improve."
+  },
+  "notificationsShareYourFeedback": {
+    "message": "Share your feedback"
+  },
+  "notificationsYourDailyReport": {
+    "message": "Your daily report is ready!"
+  },
+  "notificationsViewProgress": {
+    "message": "View yesterday’s progress"
+  },
+  "notificationsDailyReport": {
+    "message": "Your daily report is ready!"
+  },
+  "notificationsViewYesterdays": {
+    "message": "View yesterday’s progress"
+  },
+  "notificationsFeedbackStar": {
+    "message": "feedback star"
+  },
+  "notificationsLargeNotification": {
+    "message": "large notification"
+  },
+  "notificationsMediumNotification": {
+    "message": "medium notification"
+  },
+  "notificationsTrophy": {
+    "message": "trophy"
+  },
+  "removeWord": {
+    "message": "Remove word"
+  },
+  "areYouSure": {
+    "message": "Are you sure?"
+  },
+  "weWontTranslateWordAnymore": {
+    "message": "We won’t translate this word anymore while you’re browsing the web with Toucan."
+  },
+  "nevermind": {
+    "message": "Never mind"
+  },
+  "quizCouldntCompleteAction": {
+    "message": "We couldn’t complete this action."
+  },
+  "quizItsNotYouItsOurServers": {
+    "message": "It’s not you, it’s our servers. If the problem continues to occur, please <0>contact us</0>."
+  },
+  "quizErrorId": {
+    "message": "Error ID: {{id}}"
+  },
+  "toucanWithBooks": {
+    "message": "Toucan with books"
+  },
+  "quizAlmostThere": {
+    "message": "Almost there!"
+  },
+  "quizLearningTakesPractice": {
+    "message": "Learning just takes some practice. Try leveling up this word again."
+  },
+  "quizTryAgain": {
+    "message": "Try Again"
+  },
+  "quizExit": {
+    "message": "exit"
+  },
+  "toucanLogo": {
+    "message": "toucan logo"
+  },
+  "fluencyCheck": {
+    "message": "Fluency check"
+  },
+  "quizOf": {
+    "message": "{{currentQuestion}} of {{totalQuestions}}"
+  },
+  "quizMeans": {
+    "message": "<0>{{translation}}</0> means..."
+  },
+  "quizHowDoYouSay": {
+    "message": "How do you say <0>{{translation}}</0>?"
+  },
+  "quizContinue": {
+    "message": "continue"
+  },
+  "quizCantListenNow": {
+    "message": "I can’t listen right now"
+  },
+  "quizSpellTheWord": {
+    "message": "Spell the word for <0>{{translation}}</0>."
+  },
+  "quizIDontKnow": {
+    "message": "I don’t know"
+  },
+  "quizTypeIn": {
+    "message": "Type in {{language}}"
+  },
+  "quizAccent": {
+    "message": "accent"
+  },
+  "viewYourProgress": {
+    "message": "View your progress"
+  },
+  "china": {
+    "message": "China"
+  },
+  "india": {
+    "message": "India"
+  },
+  "israel": {
+    "message": "Israel"
+  },
+  "arabLeague": {
+    "message": "Arab League"
+  },
+  "dutch": {
+    "message": "Dutch"
+  },
+  "browserWindow": {
+    "message": "Browser window icon"
+  },
+  "today": {
+    "message": "Today"
+  },
+  "yesterday": {
+    "message": "Yesterday"
+  },
+  "youDidntHaveActivityYesterday": {
+    "message": "You didn’t have any activity yesterday. Try these tips to help achieve your goals faster."
+  },
+  "turnToucanBackOnIfPaused": {
+    "message": "Turn Toucan back on if you’re paused"
+  },
+  "yourRecentWords": {
+    "message": "Your recent words"
+  },
+  "amountSeen": {
+    "message": "{{amount}} seen"
+  },
+  "amountLearned": {
+    "message": "{{amount}} learned"
+  },
+  "amountPracticed": {
+    "message": "{{amount}} practiced"
+  },
+  "youFinishedInTheTopPercent": {
+    "message": "You finished in the top {{percent}}% of {{language}} learners. Good job!"
+  },
+  "top10Percent": {
+    "message": "Top 10%"
+  },
+  "kanji": {
+    "message": "Kanji"
+  },
+  "hiraganaKatakana": {
+    "message": "Hiragana/Katakana"
+  },
+  "hiraganaKatakanaOnly": {
+    "message": "Hiragana/Katakana only"
+  },
+  "phoneticSpelling": {
+    "message": "Phonetic spelling"
+  },
+  "yourDisplayAlphabetHasChangedToVariant": {
+    "message": "Your display alphabet has changed to {{variant}}."
+  },
+  "showHowPronounceWordsHoverOverThem": {
+    "message": "Show me how to pronounce words when I hover over them"
+  },
+  "selectDisplayAlphabet": {
+    "message": "Select display alphabet"
+  },
+  "abjadiyyah": {
+    "message": "Abjadiyyah"
+  },
+  "ktavAshuri": {
+    "message": "Ktav Ashuri"
+  },
+  "devanagari": {
+    "message": "Devanagari"
+  },
+  "hangul": {
+    "message": "Hangul"
+  },
+  "simplifiedChinese": {
+    "message": "Simplified Chinese"
+  },
+  "tryRefreshingThePageToUpdate": {
+    "message": "Try refreshing the page to update the translations."
+  },
+  "wantToucanOnThisSite": {
+    "message": "Want Toucan on this site? "
+  },
+  "tapBelowToTest": {
+    "message": "Tap below to temporarily test Toucan on this page so you can see how it works."
+  },
+  "testToucanOut": {
+    "message": "Test Toucan out"
+  },
+  "alwaysAllowOnTheSite": {
+    "message": "Always allow on this site"
+  },
+  "progress": {
+    "message": "Progress"
+  },
+  "learnMore": {
+    "message": "Learn more "
+  },
+  "makingProgress": {
+    "message": "Making Progress"
+  },
+  "seeHowYouStackUp": {
+    "message": "See how you stack up alongside all the people learning new languages with Toucan. "
+  },
+  "heresHowYouSpeedUp": {
+    "message": "Here's how to speed up your progress:"
+  },
+  "justKeepBrowsing": {
+    "message": "Just keep browsing"
+  },
+  "justKeepBrowsingDescription": {
+    "message": "Every time you learn a new word, you get a little more comfortable with your new language."
+  },
+  "checkYourPronunciation": {
+    "message": "Check your pronunciation"
+  },
+  "checkYourPronunciationDescription": {
+    "message": "Make sure you're saying each word correctly with Toucan's audio guides."
+  },
+  "earlyAccess": {
+    "message": "Early Access"
+  },
+  "hoverPauseTranslations": {
+    "message": "Pause translations"
+  },
+  "viewSavedWords": {
+    "message": "View saved words"
+  },
+  "beta": {
+    "message": "Beta"
+  },
+  "toucanTweakedYourSettings": {
+    "message": "Toucan tweaked your settings"
+  },
+  "continueWithApple": {
+    "message": "Continue with Apple"
+  },
+  "logInWithApple": {
+    "message": "Log in with Apple"
+  },
+  "yourProgress": {
+    "message": "Your {{language}} progress"
+  },
+  "sparkle": {
+    "message": "sparkle"
+  },
+  "pencil": {
+    "message": "pencil"
+  },
+  "numFreeLeft": {
+    "message": "{{number}} free left"
+  },
+  "unlockPracticeQuestions": {
+    "message": "Unlock practice questions"
+  },
+  "toucanLookingAtMap": {
+    "message": "Toucan looking at map"
+  },
+  "noActivityAvailable": {
+    "message": "No activity available."
+  },
+  "rememberToEnableToucan": {
+    "message": "Remember to enable Toucan as you browse to start seeing translations."
+  },
+  "seenWords": {
+    "message": "Seen words"
+  },
+  "practicedWords": {
+    "message": "Practiced words"
+  },
+  "learnedWords": {
+    "message": "Learned words"
+  },
+  "testYourKnowledge": {
+    "message": "Test your knowledge"
+  },
+  "thatTookLonger": {
+    "message": "That took longer than expected. Try again or contact us if the problem persists."
+  },
+  "wereExperiencingIssues": {
+    "message": "We're experiencing issues on our end. Give us a minute and try again. If the problem persists, contact us."
+  },
+  "sortBy": {
+    "message": "Sort by"
+  },
+  "applyChanges": {
+    "message": "Apply changes"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "lastSeen": {
+    "message": "Last seen"
+  },
+  "lastPracticed": {
+    "message": "Last practiced"
+  },
+  "lastLearned": {
+    "message": "Last learned"
+  },
+  "mostSeen": {
+    "message": "Most seen"
+  },
+  "leastSeen": {
+    "message": "Least seen"
+  },
+  "firstPracticed": {
+    "message": "First practiced"
+  },
+  "firstLearned": {
+    "message": "First learned"
+  },
+  "chooseLanguageToLearn": {
+    "message": "Choose a language to learn"
+  },
+  "grantToucanPermissions": {
+    "message": "Grant Toucan permissions"
+  },
+  "weCantShowYouTranslations": {
+    "message": "We can’t show you translations without this."
+  },
+  "giveToucanAccess": {
+    "message": "Give Toucan access."
+  },
+  "signUpForFreeAccount": {
+    "message": "Sign up for a free Toucan account"
+  },
+  "hoverOverTranslation": {
+    "message": "Hover over a translation"
+  },
+  "openYourSettings": {
+    "message": "Open your settings"
+  },
+  "justHoverOverWord": {
+    "message": "Just hover over a word or click the Toucan icon in your browser."
+  },
+  "completePracticeSession": {
+    "message": "Complete a practice session"
+  },
+  "answerQuickQuestion": {
+    "message": "Answer a quick question to help cement a newly learned word into your vocabulary."
+  },
+  "completeFluencyCheck": {
+    "message": "Complete a fluency check"
+  },
+  "practicedWordEnough": {
+    "message": "Once you’ve practiced a word enough, check it off your list with a quick quiz."
+  },
+  "getToKnowToucan": {
+    "message": "Get to know Toucan"
+  },
+  "checkOffEverything": {
+    "message": "Check off everything on this to-do list to get a head start on learning your new language."
+  },
+  "percentComplete": {
+    "message": "{{amountCompleted}}% complete"
+  },
+  "viewProgress": {
+    "message": "View progress"
+  },
+  "enjoyEvenMore": {
+    "message": "Enjoy even more Toucan with a 7-day free trial of Premium!"
+  },
+  "startFreeTrial": {
+    "message": "start free trial"
+  },
+  "progressionCheck": {
+    "message": "Progression checkmark icon"
+  },
+  "iKnowThatWord": {
+    "message": "I know that word!"
+  },
+  "wantToGrowYourVocab": {
+    "message": "Want to grow your vocabulary even faster? With Premium, you can let Toucan know if you've already learned a word."
+  },
+  "accessThisFeature": {
+    "message": "Access this feature by becoming a Premium subscriber."
+  },
+  "getAccess": {
+    "message": "Get Access"
+  },
+  "notNow": {
+    "message": "Not now"
+  },
+  "tryItOut": {
+    "message": "Try it out by starting your free trial of Toucan Premium today."
+  },
+  "getUnlimitedAccess": {
+    "message": "Get Unlimited Access"
+  },
+  "exploreToucan": {
+    "message": "Explore Toucan's most helpful features."
+  },
+  "viewToDoList": {
+    "message": "View to-do list"
+  },
+  "keepGoing": {
+    "message": "Keep going!"
+  },
+  "throughYourToDo": {
+    "message": "You’re {{amountCompleted}}% through your to-do list."
+  },
+  "sorryMessyNestRefresh": {
+    "message": "Sorry, our nest is a bit messy right now. Mind hitting refresh?"
+  },
+  "youChoseALanguage": {
+    "message": "You chose a language to learn!"
+  },
+  "youGrantedPermissions": {
+    "message": "You granted Toucan permissions!"
+  },
+  "youSignedUpForAccount": {
+    "message": "You signed up for a Toucan account!"
+  },
+  "youHoveredOverTranslation": {
+    "message": "You hovered over a translation!"
+  },
+  "youOpenedSettings": {
+    "message": "You opened your settings!"
+  },
+  "youCompletedPractice": {
+    "message": "You completed a practice session!"
+  },
+  "youCompletedFluency": {
+    "message": "You completed a fluency check!"
+  },
+  "wellDoneYouCompleted": {
+    "message": "Well done! You’re {{amountCompleted}}% through your to-do list."
+  },
+  "nicelyDone": {
+    "message": "Nicely done!"
+  },
+  "youveCompletedToDoList": {
+    "message": "You’ve completed the to-do list."
+  },
+  "viewList": {
+    "message": "View list"
+  },
+  "toucanPausedForDomain": {
+    "message": "Toucan paused for {{domain}}"
+  },
+  "pauseOnAllSites": {
+    "message": "Pause on all sites"
+  },
+  "translate": {
+    "message": "Translate"
+  },
+  "startLearningForFree": {
+    "message": "Start learning for <0 />free"
+  },
+  "sharedGetMoreForFree": {
+    "message": "Get more from Toucan (for free)"
+  },
+  "createAnAccountToUnlock": {
+    "message": "Create a Toucan account to <0>unlock more features and personalize your language-learning experience</0>."
+  },
+  "unlockMoreAndPersonalize": {
+    "message": "<0>Unlock more features and personalize your Toucan experience</0> by creating an account."
+  },
+  "sorryTryAgain": {
+    "message": "Sorry, we don't recognize that email and password combination. Please try again."
+  },
+  "emailAlreadyInUse": {
+    "message": "This email address is already in use. Try logging into your account instead."
+  },
+  "bySigningUpIAgree": {
+    "message": "By signing up, I affirm that I agree to the <0>Terms of Use</0> and I acknowledge that I have read the <1>Privacy Policy</1>."
+  },
+  "byLoggingInIAgree": {
+    "message": "By logging in, I affirm that I agree to the <0>Terms of Use</0> and I acknowledge that I have read the <1>Privacy Policy</1>."
+  },
+  "byClickingSignUp": {
+    "message": "By clicking SIGN UP, I affirm that I agree to the <0>Terms of Use</0> and I acknowledge that I have read the <1>Privacy Policy</1>."
+  },
+  "byClickingLogIn": {
+    "message": "By clicking LOG IN, I affirm that I agree to the <0>Terms of Use</0> and I acknowledge that I have read the <1>Privacy Policy</1>."
+  },
+  "errorId": {
+    "message": "Error ID: {{id}}"
+  },
+  "openSettings": {
+    "message": "Open settings"
+  },
+  "practiceThisWord": {
+    "message": "Practice this word"
+  },
+  "allCorrectWellDone": {
+    "message": "All correct! Well done."
+  },
+  "barGraph": {
+    "message": "bar graph"
+  },
+  "averagePremiumUser": {
+    "message": "The average Premium user learns new words 7.4x more quickly."
+  },
+  "startYourFreeTrial": {
+    "message": "Start your free trial"
+  },
+  "youreOutOfFreeQuestions": {
+    "message": "You’re out of free questions today."
+  },
+  "subscribeForUnlimitedPractice": {
+    "message": "Subscribe for unlimited practice"
+  },
+  "getUnlimitedPractice": {
+    "message": "Get unlimited practice"
+  },
+  "unlockUnlimitedPracticeSessions": {
+    "message": "Unlock unlimited practice sessions with Premium."
+  },
+  "improveYourLanguageByPracticingSavedWords": {
+    "message": "Improve your {{language}} by practicing your saved words."
+  },
+  "almostDoneYouHaveNumWordsLeft": {
+    "message": "Almost done! You have {{number}} words left to practice today."
+  },
+  "continue": {
+    "message": "Continue"
+  },
+  "greatJobPracticedAllWords": {
+    "message": "Great job! You practiced all your saved words today."
+  },
+  "keepPracticing": {
+    "message": "Keep practicing"
+  },
+  "youNeedNumWordsToPractice": {
+    "message": "You need at least {{number}} saved words to unlock practice sessions."
+  },
+  "addRecentlyViewedWords": {
+    "message": "Add recently viewed words"
+  },
+  "thisNestLooksEmpty": {
+    "message": "This nest looks empty"
+  },
+  "clickTheBookmarkIconOnWords": {
+    "message": "Click the bookmark icon <0/> on words you see to get started."
+  },
+  "saved": {
+    "message": "Saved"
+  },
+  "unlockMoreFeatureAndPersonalize": {
+    "message": "Unlock more features and personalize your language-learning experience."
+  },
+  "matchTheFollowingWords": {
+    "message": "Match the following words to their correct translation. "
+  },
+  "alwaysTranslateSavedWords": {
+    "message": "Always translate saved words"
+  },
+  "langIsComingSoon": {
+    "message": "{{language}} is coming soon!"
+  },
+  "langIsNowLive": {
+    "message": "{{language}} is now live!"
+  },
+  "youreOnYourWayToLearningLang": {
+    "message": "You’re on your way to learning {{language}} with Toucan"
+  },
+  "youreCurrentlyInTheTopPercent": {
+    "message": "You're currently in the top {{percent}}% of {{language}} learners"
+  },
+  "thereWasAHiccup": {
+    "message": "There was a little hiccup when you installed Toucan, so we updated your language to {{language}} to fix it."
+  },
+  "learnEvenFaster": {
+    "message": "Learn {{language}} even faster with unlimited practice sessions, games and more."
+  },
+  "skyWithCloud": {
+    "message": "sky with cloud"
+  },
+  "iSpeakLangAndLearn": {
+    "message": "<0>I speak</0> <1/> <2>and I want to learn ...</2>"
+  },
+  "sorryToucanNoWorkOnPageYet": {
+    "message": "Sorry! Toucan doesn’t work on this page yet. Try another site to see translations."
+  },
+  "exploreFeaturesNewExtension": {
+    "message": "Explore all the features of your new favorite browser extension."
+  },
+  "createToucanAccount": {
+    "message": "Create a Toucan account"
+  },
+  "giveToucanPermissionWork": {
+    "message": "Give Toucan permission to work"
+  },
+  "practiceYourFirstWord": {
+    "message": "Practice your first word"
+  },
+  "saveYourFirstWord": {
+    "message": "Save your first word"
+  },
+  "learnAboutPremium": {
+    "message": "Learn about Premium"
+  },
+  "yourePercentageThroughYourChecklist": {
+    "message": "You’re {{percentage}}% through your checklist."
+  },
+  "viewChecklist": {
+    "message": "View checklist"
+  },
+  "giveUsMinute": {
+    "message": "Give us just a minute ..."
+  },
+  "logOut": {
+    "message": "Log Out"
+  },
+  "verifyYourInformation": {
+    "message": "Verify your information"
+  },
+  "toKeepYourAccountSecure": {
+    "message": "To keep your account secure, please confirm the information below is correct."
+  },
+  "upLittleExtraLanguagePractice": {
+    "message": "Up for a little extra {{targetLanguage}} practice?"
+  },
+  "dontShowMeThis": {
+    "message": "Don't show me this"
+  },
+  "begin": {
+    "message": "Begin"
+  },
+  "wontShowTheseAnymore": {
+    "message": "Okay, we won’t show you these anymore"
+  },
+  "turnThemOnAnyTimeInSettings": {
+    "message": "You can turn them on at any time in your settings."
+  },
+  "turnOnNow": {
+    "message": "Turn on now"
+  },
+  "extraPractice": {
+    "message": "Extra Practice"
+  },
+  "doYouRememberThisWord": {
+    "message": "Do you know this word?"
+  },
+  "whatsCorrectArticleForThisWord": {
+    "message": "What’s the correct article for this word?"
+  },
+  "areWeUsingWordCorrectly": {
+    "message": "Are we using this word correctly?"
+  },
+  "canYouFigureOutSentenceSays": {
+    "message": "Can you figure out what this sentence says?"
+  },
+  "clickToRevealTranslation": {
+    "message": "Click to reveal the translation"
+  },
+  "stillLearning": {
+    "message": "Still learning"
+  },
+  "iKnowIt": {
+    "message": "I know it"
+  },
+  "unlockMoreWithPremium": {
+    "message": "Unlock more with Premium"
+  },
+  "waitTheresMore": {
+    "message": "Wait, there’s more!"
+  },
+  "subscribeStartFreeTrial": {
+    "message": "Start Free Trial"
+  },
+  "enjoyUnlimitedPracticeSessionsWithPremium": {
+    "message": "Enjoy unlimited practice sessions with Toucan Premium."
+  },
+  "niceJobYoureGettingGood": {
+    "message": "Nice job! You’re getting good at this."
+  },
+  "lookAtYouGoWellDone": {
+    "message": "Look at you go. Well done!"
+  },
+  "youreReallyMakingProgress": {
+    "message": "You’re really making progress!"
+  },
+  "thatWasImpressive": {
+    "message": "That was impressive"
+  },
+  "nicelyDoneYoureDoingGreat": {
+    "message": "Nicely done! You’re doing great."
+  },
+  "youNailedItWayToGo": {
+    "message": "You nailed it. Way to go!"
+  },
+  "wasThisHelpful": {
+    "message": "Was this helpful?"
+  },
+  "yes": {
+    "message": "Yes"
+  },
+  "no": {
+    "message": "No"
+  },
+  "thanksForYourFeedback": {
+    "message": "Thanks for your feedback."
+  },
+  "shareFeedback": {
+    "message": "Share feedback"
+  },
+  "toucanInCircle": {
+    "message": "Toucan in circle"
+  },
+  "toucanBird": {
+    "message": "Toucan bird"
+  },
+  "somethingWentWrong": {
+    "message": "Something went wrong. We'll try again next time the page loads. If the problem continues to occur, please <0>contact us</0>."
+  },
+  "mindTellingUsMoreShortSurvey": {
+    "message": "Mind telling us more with a short survey?"
+  },
+  "clickToSeeTranslation": {
+    "message": "Click to see the translation"
+  },
+  "clickNext": {
+    "message": "Next"
+  },
+  "comingSoonToMobile": {
+    "message": "Coming soon to mobile!"
+  },
+  "tryingAccessFeatureNotReadyMobile": {
+    "message": "Looks like you’re trying to access a feature that isn’t quite ready yet on mobile."
+  },
+  "useToucanDesktopBrowser": {
+    "message": "Use Toucan on your desktop browser to access this feature!"
+  },
+  "gotIt": {
+    "message": "Got it"
+  },
+  "nextWord": {
+    "message": "Next Word"
+  },
+  "startLearning": {
+    "message": "Start learning"
+  },
+  "tryPremiumForFree": {
+    "message": "Try premium for free"
+  },
+  "andYoureGoodToGo": {
+    "message": "And you're good to go! <0/>"
+  },
+  "partyIcon": {
+    "message": "Party Icon"
+  },
+  "reportErrorSelectOneOfTheOptionsError": {
+    "message": "Select one of the options below to report an error."
+  },
+  "reportErrorDetectiveToucan": {
+    "message": "Detective Toucan"
+  },
+  "reportErrorToucanIsOnIt": {
+    "message": "Toucan is on it"
+  },
+  "reportErrorThanksForSendingYourReport": {
+    "message": "Thanks for sending in your report! We appreciate your help in making Toucan even better."
+  },
+  "reportErrorDone": {
+    "message": "Done"
+  },
+  "reportErrorReportAnError": {
+    "message": "Report an error"
+  },
+  "reportErrorHelpMakeToucanEvenBetter": {
+    "message": "Help make Toucan even better by telling us more about the error you saw"
+  },
+  "reportErrorPleaseSelectOption": {
+    "message": "Please select one of the options below"
+  },
+  "reportErrorTheresAWordMisspelled": {
+    "message": "There’s a word misspelled"
+  },
+  "reportErrorTheresAGrammaticalError": {
+    "message": "There is a grammar error"
+  },
+  "reportErrorTheTranslationDoesntMakeSense": {
+    "message": "The translation does not make sense in this context"
+  },
+  "reportErrorTheAudioIsntWorking": {
+    "message": "The audio isn’t working"
+  },
+  "reportErrorSomethingElseIsWrong": {
+    "message": "Something else is wrong"
+  },
+  "reportErrorWantToTellUsMore": {
+    "message": "Any additional details?"
+  },
+  "reportErrorOptional": {
+    "message": "Optional"
+  },
+  "reportErrorTheErrorWas": {
+    "message": "The error was..."
+  },
+  "reportErrorReportError": {
+    "message": "Send"
+  },
+  "needRefresherToucan": {
+    "message": "Need a refresher on Toucan?"
+  },
+  "learnHowToucanWorks": {
+    "message": "Learn how Toucan works and how to get the most out of it with our step-by-step tutorial."
+  },
+  "openTutorial": {
+    "message": "Open tutorial"
+  },
+  "savedWords": {
+    "message": "Saved words"
+  },
+  "timeToLevelUp": {
+    "message": "Time to level up!"
+  },
+  "nowThatYouKnowThisWord": {
+    "message": "Now that you know this word, we'll expand the translation to include more of the sentence."
+  },
+  "okay": {
+    "message": "OKAY"
+  },
+  "tellYourFriends": {
+    "message": "Tell your friends about Toucan"
+  },
+  "sendAFriend": {
+    "message": "Send a friend your invite link"
+  },
+  "yourFriendCreates": {
+    "message": "Your friend creates a Toucan account"
+  },
+  "toucanThanksYou": {
+    "message": "Toucan thanks you and your friend with {{moneyReward}} off a Premium subscription"
+  },
+  "or": {
+    "message": "or"
+  },
+  "onlyRedeemable": {
+    "message": "*Only redeemable on jointoucan.com"
+  },
+  "getMoreFromToucan": {
+    "message": "Get more from Toucan"
+  },
+  "claimYourReward": {
+    "message": "To claim your {{moneyReward}}, you’ll need a Toucan account."
+  },
+  "emailYourFriends": {
+    "message": "Email your friends"
+  },
+  "toucanWillSend": {
+    "message": "Toucan will send your invite link for you."
+  },
+  "emailAddress": {
+    "message": "Email address"
+  },
+  "addAnother": {
+    "message": "Add another"
+  },
+  "done": {
+    "message": "Done"
+  },
+  "emailDoesntLookRight": {
+    "message": "Hmm, this email doesn't look right."
+  },
+  "birdGotLoose": {
+    "message": "Sorry, a bird got loose in one of our servers. Mind trying again?"
+  },
+  "thanksForIntroducing": {
+    "message": "Thanks for introducing us to your friends!"
+  },
+  "thankYouDiscount": {
+    "message": "As a thank you, we'll discount your subscription by {{moneyReward}} at checkout."
+  },
+  "annualPlan": {
+    "message": "Annual plan"
+  },
+  "monthlyPlan": {
+    "message": "Monthly plan"
+  },
+  "thanksforSharing": {
+    "message": "Thanks for sharing Toucan"
+  },
+  "dueAfter": {
+    "message": "{{moneyReward}} due after {{number}}-day free trial."
+  },
+  "cancelAnytime": {
+    "message": "Cancel anytime."
+  },
+  "bySubmittingPaymentInformation": {
+    "message": "By submitting your payment information, you agree to our Terms of Use, Privacy Policy, and that your 30-day trial term will begin immediately. At the end of this term, Toucan will automatically charge your payment method {{annualCost}} annually, minus any account credit, until you cancel. You may cancel at any time."
+  },
+  "bySubmittingPaymentInformationMonthly": {
+    "message": "By submitting your payment information, you agree to our Terms of Use, Privacy Policy, and that your 7-day trial term will begin immediately. At the end of this term, Toucan will automatically charge your payment method {{monthlyCost}} monthly, minus any account credit, until you cancel. You may cancel at any time."
+  },
+  "inviteFriends": {
+    "message": "Invite friends"
+  },
+  "inviteFriendsEarn": {
+    "message": "Invite a friend. Earn {{moneyReward}}."
+  },
+  "tellYourFriendsAboutToucan": {
+    "message": "Tell your friends about Toucan and earn {{moneyReward}} when they create a Toucan account."
+  },
+  "youHaveTotalRewards": {
+    "message": "You have {{moneyReward}} available"
+  },
+  "claimNow": {
+    "message": "Claim now"
+  },
+  "rewardsAvailable": {
+    "message": "Rewards available"
+  },
+  "friendsJoinedToucan": {
+    "message": "Friends who've joined Toucan"
+  },
+  "earnRewards": {
+    "message": "Earn rewards"
+  },
+  "keepInviting": {
+    "message": "Keep inviting friends to earn {{moneyReward}}"
+  },
+  "createAnAccountClaimReward": {
+    "message": "Create an account to claim your reward"
+  },
+  "experiencingIssuesOnOurEnd": {
+    "message": "We're experiencing issues on our end. Try again or contact us if the problem persists."
+  },
+  "paperAirplanes": {
+    "message": "Paper airplanes"
+  },
+  "wellDone": {
+    "message": "Well done!"
+  },
+  "keepItUp": {
+    "message": "Keep it up!"
+  },
+  "youreSimplyAwesome": {
+    "message": "You’re simply awesome."
+  },
+  "numberOfWordLeftToPractice": {
+    "message": "{{number}} words left to practice today"
+  },
+  "youPracticedAllYourSavedWords": {
+    "message": "You practiced all your saved words today"
+  },
+  "wordsPracticed": {
+    "message": "Words practiced"
+  },
+  "skyWithCloudAndPlanes": {
+    "message": "sky with cloud and paper planes"
+  },
+  "onlyReedemableFromDesktop": {
+    "message": "Only redeemable from your desktop at jointoucan.com"
+  },
+  "beenLearningaNew": {
+    "message": "I’ve been learning a new language with Toucan and it’s awesome! It’d be even better if I had someone to practice with. "
+  },
+  "greatJobPracticedWords": {
+    "message": "Great job! You practiced {{number}} of your saved words today."
+  },
+  "youPracticedYourSavedWords": {
+    "message": "You practiced {{number}} of your saved words today"
+  },
+  "hatchling": {
+    "message": "hatchling"
+  },
+  "helpImproveToucan": {
+    "message": "Help improve Toucan"
+  },
+  "shareDeviceAndUsage": {
+    "message": "Share device and usage data"
+  },
+  "privacyPolicy": {
+    "message": "Privacy Policy"
+  },
+  "lookingForHelpOnboarding": {
+    "message": "Looking for help?"
+  },
+  "visitTheFaqs": {
+    "message": "Visit the <0>FAQs</0> or <1>contact us</1>"
+  },
+  "toucanGivesFreePremium": {
+    "message": "Toucan gives a free Premium subscription to a school"
+  },
+  "inviteFriendHelpSchool": {
+    "message": "Invite a friend. Help a school."
+  },
+  "aFewTranslatedWords": {
+    "message": "A few translated words per page"
+  },
+  "aHandfulOfTranslations": {
+    "message": "A handful of translations per page"
+  },
+  "quiteAFewTranslations": {
+    "message": "Quite a few translations per page"
+  },
+  "lotsOfTranslations": {
+    "message": "Lots of translations per page"
+  },
+  "aMixOfIntermediate": {
+    "message": "A mix of intermediate and easier translations"
+  },
+  "lotsOfIntermediateWords": {
+    "message": "Lots of intermediate words and some easier ones"
+  },
+  "lotsOfAdvancedWords": {
+    "message": "Lots of advanced words and some easier ones"
+  },
+  "aMixOfAdvancedTranslations": {
+    "message": "A mix of advanced translations and easier ones"
+  },
+  "beginner": {
+    "message": "Beginner"
+  },
+  "intermediate": {
+    "message": "Intermediate"
+  },
+  "advanced": {
+    "message": "Advanced"
+  },
+  "digitalCarrierPigeonOnWay": {
+    "message": "Our digital carrier pigeon is on its way!"
+  },
+  "digitalCarrierPigeonOnWay_plural": {
+    "message": "Our digital carrier pigeons are on their way!"
+  },
+  "successfullySentInvite": {
+    "message": "You successfully sent 1 invite."
+  },
+  "successfullySentInvite_plural": {
+    "message": "You successfully sent {{count}} invites."
+  },
+  "like": {
+    "message": "Like"
+  },
+  "dislike": {
+    "message": "Dislike"
+  },
+  "toucanAlmostReady": {
+    "message": "Toucan is almost ready!"
+  },
+  "transparencyImportant": {
+    "message": "Transparency is important to us so, before you use Toucan, <0/>please review the below."
+  },
+  "toucanCookies": {
+    "message": "Toucan uses cookies to improve your experience (The digital kind, not chocolate chip, unfortunately)."
+  },
+  "toucanReadsText": {
+    "message": "To provide translations, Toucan reads the text on websites you visit. This does NOT include passwords, browsing history or personal information."
+  },
+  "sharingUsageData": {
+    "message": "This is optional, but we’d appreciate you sharing some device and usage data to help us make Toucan even better. This would just let us know when you log in or out of Toucan, use certain features, and things like that."
+  },
+  "turnOnToucan": {
+    "message": "Turn on Toucan"
+  },
+  "noThanksUninstallToucan": {
+    "message": "No thanks, uninstall Toucan"
+  },
+  "privacyDisclaimer": {
+    "message": "By installing Toucan, you are agreeing to our <0>Terms and Conditions</0> and acknowledge that you have read our <1>Privacy Policy</1>."
+  },
+  "sharingAgreed": {
+    "message": "sharing agreed"
+  },
+  "noThanks": {
+    "message": "No thanks"
+  },
+  "notReadyForToucanYet": {
+    "message": "Not ready for Toucan yet?"
+  },
+  "toUninstallToucan": {
+    "message": "To uninstall Toucan, right click on the Toucan icon in your browser bar and select \\\"Remove extension\\\"."
+  },
+  "audioControls": {
+    "message": "Audio controls"
+  },
+  "pronunciationSpeed": {
+    "message": "Pronunciation speed"
+  },
+  "letsLearn": {
+    "message": "Let’s learn {{language}}"
+  },
+  "xSpeed": {
+    "message": "{{speed}}x speed"
+  },
+  "chooseAVoice": {
+    "message": "Choose a voice"
+  },
+  "voiceOne": {
+    "message": "Voice 1"
+  },
+  "voiceTwo": {
+    "message": "Voice 2"
+  },
+  "none": {
+    "message": "None"
+  },
+  "wantToTakeAShortcut": {
+    "message": "Want to take a Shortcut?"
+  },
+  "selectOneBelow": {
+    "message": "Select one below"
+  },
+  "yourShortcut": {
+    "message": "Your {{language}} Shortcut"
+  },
+  "currentFocus": {
+    "message": "Current focus"
+  },
+  "whatYouKnow": {
+    "message": "What you know"
+  },
+  "youHaventCompletedAny": {
+    "message": "You haven't completed any topics yet"
+  },
+  "moreShortcuts": {
+    "message": "More Shortcuts"
+  },
+  "wordsAndPhrases": {
+    "message": "of {{totalWords}} words and phrases"
+  },
+  "viewAll": {
+    "message": "View all"
+  },
+  "takeThisShortcut": {
+    "message": "Take this Shortcut"
+  },
+  "niceWorkToday": {
+    "message": "+{{value}} {{word}}. Nice work today!"
+  },
+  "word": {
+    "message": "word"
+  },
+  "words": {
+    "message": "words"
+  },
+  "arcOverlay": {
+    "message": "arc overlay"
+  },
+  "deleteAccount": {
+    "message": "Delete account"
+  },
+  "justAHeadsUp": {
+    "message": "Just a heads up"
+  },
+  "ifYouDeleteYourAccount": {
+    "message": "If you delete your account, you won’t be able to track your learning progress or save your settings."
+  },
+  "deleteMyAccount": {
+    "message": "Delete my account"
+  },
+  "sorryToSeeYouGo": {
+    "message": "Sorry to see you go!"
+  },
+  "toucanWillDeleteYourAccount": {
+    "message": "Toucan will delete your account in the next 7 business days. We’ll send you a confirmation email once we’re done."
+  },
+  "minutes": {
+    "message": "{{minutes}} min"
+  },
+  "takeShortcut": {
+    "message": "Take Shortcut"
+  },
+  "learnLanguageFaster": {
+    "message": "Learn {{language}} faster by taking a Shortcut"
+  },
+  "eatLikeALocalMakeNewFriends": {
+    "message": "Eat like a local, make new friends, or say hello — all by browsing."
+  },
+  "keepGoingNoPunctuation": {
+    "message": "Keep going"
+  },
+  "readThisSentence": {
+    "message": "Read this sentence."
+  },
+  "chooseTheBestOption": {
+    "message": "Choose the best option."
+  },
+  "didYouGetItRight": {
+    "message": "Did you get it right?"
+  },
+  "keepGoingYoureDoingGreat": {
+    "message": "Keep going! You're doing great."
+  },
+  "keepUpTheGreatWork": {
+    "message": "Keep up the great work!"
+  },
+  "trophy": {
+    "message": "trophy"
+  },
+  "youDiscoveredToucanPremiumFeature": {
+    "message": "You discovered a Toucan Premium feature!"
+  },
+  "unlockUnlimitedQuizzesMoreToucanPremium": {
+    "message": "Unlock unlimited quizzes and more with Toucan Premium."
+  },
+  "hideWordsDontWantSeePremium": {
+    "message": "Hide words you don’t want to see with Premium."
+  },
+  "dontTranslatePremiumFeature": {
+    "message": "Don’t translate (Premium feature)"
+  },
+  "joinToucanPremiumSaveWordsUnlockPracticeSessions": {
+    "message": "Join Toucan Premium to save words and unlock personalized practice sessions."
+  },
+  "youDontHaveSavedWordsYet": {
+    "message": "You don’t have any saved words yet."
+  },
+  "saveSpecificWordsReviewLaterToucanPremium": {
+    "message": "Save specific words to review later with Toucan Premium."
+  },
+  "saveWordPremiumFeature": {
+    "message": "Save word (Premium feature)"
+  },
+  "learningLevel": {
+    "message": "Learning level"
+  },
+  "takeControlHowManyTranslationsDifficultWordsAre": {
+    "message": "Take control of how many translations you see and how difficult the words are."
+  },
+  "startPremiumFreeTrial": {
+    "message": "Start Premium free trial"
+  },
+  "wishYouCouldChooseHowManyTranslationsYouSee": {
+    "message": "Wish you could choose how many translations you see?"
+  },
+  "speedUpLanguageMoreDifficultWords": {
+    "message": "Speed up your language learning with more difficult words."
+  },
+  "translateWordsPhrasesOnDemandPremium": {
+    "message": "Translate words and phrases on demand with Premium."
+  },
+  "alreadyKnowThisWordPersonalizeYourTranslations": {
+    "message": "Already know this word? Personalize your translations."
+  },
+  "iKnowThisPremiumFeature": {
+    "message": "I know this (Premium feature)"
+  },
+  "startFreeTrialFirstLetterCapitalized": {
+    "message": "Start free trial"
+  },
+  "notepad": {
+    "message": "notepad"
+  },
+  "toucanBehindLeaf": {
+    "message": "Toucan behind leaf"
+  },
+  "barChart": {
+    "message": "bar chart"
+  },
+  "premiumUpsellIcon": {
+    "message": "premium upsell icon"
+  },
+  "toucanUnableAudio": {
+    "message": "Toucan is unable to play audio."
+  },
+  "somethingWentWrongTitle": {
+    "message": "Something went wrong."
+  },
+  "wellTryAgainNextTime": {
+    "message": "We'll try again next time the page loads. If the problem continues to occur, please <0>contact us</0>."
+  },
+  "thisIsCurrentFocus": {
+    "message": "This is your current focus."
+  },
+  "amountWordsAndPhrases": {
+    "message": "{{count}} words and phrases"
+  },
+  "youDiscoveredPremiumFeature": {
+    "message": "You discovered a Premium feature!"
+  },
+  "accessUnlimitedQuizzesToucanPremium": {
+    "message": "Access unlimited quizzes with Toucan Premium."
+  },
+  "upNext": {
+    "message": "Up next: {{topicName}}"
+  },
+  "readyForYourNextShortcut": {
+    "message": "Ready for your next Shortcut?"
+  },
+  "browseShortcuts": {
+    "message": "Browse Shortcuts"
+  },
+  "toucanWillPrioritizeTeaching": {
+    "message": "Toucan will prioritize teaching you words and phrases related to the topic you choose."
+  },
+  "toucanNeedsPermission": {
+    "message": "Toucan needs your permission"
+  },
+  "giveToucanPermissionBrowser": {
+    "message": "Tap below to give Toucan permission to work on your browser. After all, the more you use it, the faster you’ll learn!"
+  },
+  "somthingNewJustForYou": {
+    "message": "Something new just for you"
+  },
+  "letsGo": {
+    "message": "Let's go"
+  },
+  "wantToTrySomePracticeConversations": {
+    "message": "Want to try some practice conversations?"
+  },
+  "howWouldYouRespond": {
+    "message": "How would you respond?"
+  },
+  "youreReadyToDineOutIn": {
+    "message": "You're ready to dine out in {{language}}!"
+  },
+  "subscribeToToucanLearnNewLanguageWhileBrowsingWeb": {
+    "message": "subscribe"
+  },
+  "subscribeNowContinueMakingLanguageProgress": {
+    "message": "subscribe"
+  },
+  "subscribeNowSavePracticeNewWords": {
+    "message": "subscribe"
+  },
+  "subscribeToToucan": {
+    "message": "subscribe"
+  },
+  "ifYouDeleteYourAccountMissOutHelpfulFeatures": {
+    "message": "subscribe"
+  },
+  "learnAboutExtraPractice": {
+    "message": "Learn about Extra Practice"
+  },
+  "miniPracticeTheseWebsites": {
+    "message": "Learn the words and phrases from your Shortcut even faster with mini practice sessions on these websites:"
+  },
+  "aboutShortcuts": {
+    "message": "About Shortcuts"
+  },
+  "introducingShortcuts": {
+    "message": "Introducing: Shortcuts 🎉"
+  },
+  "learnKeyPhrases": {
+    "message": "Start speaking your new language even faster by learning key phrases for common situations."
+  },
+  "shortcuts": {
+    "message": "Shortcuts"
+  },
+  "whatIsThis": {
+    "message": "What is this?"
+  },
+  "learnGrammar": {
+    "message": "Learn grammar and sentence structure of your new language even faster with bite-sized practice sessions on these websites:"
+  },
+  "pressToTemporarilyPauseCurly": {
+    "message": "Press {{control}} to temporarily pause Toucan on any website you visit."
+  },
+  "toucanTips": {
+    "message": "Toucan Tips"
+  },
+  "getSomeExtraPractice": {
+    "message": "Get some Extra Practice"
+  },
+  "exploreKeyFeature": {
+    "message": "Explore key features of your new favorite browser extension."
+  },
+  "exploreToucanTips": {
+    "message": "Explore Toucan"
+  },
+  "youFinishedThisShortcut": {
+    "message": "You finished this Shortcut!"
+  },
+  "readyToKeepGoing": {
+    "message": "Ready to keep going? You can pick a new Shortcut from the list below."
+  },
+  "youCompletedEveryShortcut": {
+    "message": "You completed every Shortcut!"
+  },
+  "checkBackSoonForMoreShortcuts": {
+    "message": "Check back soon for more {{targetLanguage}} Shortcuts to explore"
+  },
+  "sorryABirdGotLooseInOneOfOurServers": {
+    "message": "Sorry, a bird got loose in one of our servers. Mind trying again?"
+  },
+  "reloadPage": {
+    "message": "Reload page"
+  },
+  "ifYouDontSeeAnyTranslations": {
+    "message": "If you don't see any translations, just refresh the page to see Toucan in action."
+  },
+  "youveSuccessfullyCreatedYourAccount": {
+    "message": "You've successfully created your account!"
+  },
+  "emailOptInAgreement": {
+    "message": "I want all of Toucan’s tips for learning my new language along with the latest news and offers. Unsubscribe at anytime."
+  },
+  "signUpLogIn": {
+    "message": "Sign up / Log in"
+  },
+  "pleaseEnterYourEmailAndWellSend": {
+    "message": "Please enter your email and we’ll send a carrier pigeon to your inbox with instructions to reset your password."
+  },
+  "youreLoggedInAndReadyToGo": {
+    "message": "You're logged in and ready to go!"
+  },
+  "createAnAccountToLearnANewLanguage": {
+    "message": "You need to create an account to continue learning a language with Toucan."
+  },
+  "createAnAccountToLearnTargetLanguage": {
+    "message": "You need to create an account to continue learning {{Language}} with Toucan."
+  },
+  "learnFasterWithExtraPractice": {
+    "message": "Learn your new language even faster with Extra Practice."
+  },
+  "createAccount": {
+    "message": "Create account"
+  },
+  "youNeedToCreateAnAccountToContinue": {
+    "message": "You need to create an account to continue learning Spanish with Toucan."
+  },
+  "learnToDineOut": {
+    "message": "Learn to dine out"
+  },
+  "learnToMakeNewFriends": {
+    "message": "Learn to make new friends"
+  },
+  "learnToSayHello": {
+    "message": "Learn how to say hello"
+  },
+  "learnTheBasics": {
+    "message": "Learn the basics"
+  },
+  "idLikeToLearn": {
+    "message": "I’d like to learn ..."
+  },
+  "tellUsWhyYoureLearning": {
+    "message": "Tell us why you’re learning {{language}}"
+  },
+  "itsNiceToMeetYou": {
+    "message": "It’s nice to meet you, {{name}}!"
+  },
+  "beforeWeStartLearning": {
+    "message": "Before we start learning, let’s do a quick tour of Toucan so you know how it works."
+  },
+  "blastingOffIn": {
+    "message": "Blasting off in {{countdown}} seconds"
+  },
+  "insideTheBirdBrain": {
+    "message": "Inside the bird brain"
+  },
+  "eachTimeYouVisitASite": {
+    "message": "Each time you visit a site, Toucan translates certain words into your new language."
+  },
+  "tryHoveringOverThisWord": {
+    "message": "Try hovering over this word to see what it means."
+  },
+  "sneakyLearning": {
+    "message": "Sneaky learning"
+  },
+  "scienceShowsTheMoreYouSee": {
+    "message": "Science shows the more you see and hear a language, the easier it is to learn!"
+  },
+  "continuingInSeconds": {
+    "message": "Continuing in {{countdown}} seconds"
+  },
+  "extraPracticeIsExtraSticky": {
+    "message": "Extra Practice is extra sticky"
+  },
+  "thatsWhyToucanAdds": {
+    "message": "That’s why Toucan adds mini practice sessions to popular sites like Google, YouTube and more."
+  },
+  "letsGiveItATry": {
+    "message": "Let’s give it a try!"
+  },
+  "languageAsWord": {
+    "message": "language"
+  },
+  "progressWithoutStress": {
+    "message": "Progress without stress"
+  },
+  "youllGetFunMicroMoments": {
+    "message": "You’ll get fun micro-moments of learning throughout your day."
+  },
+  "noTestsOrGradesHere": {
+    "message": "No tests or grades here!"
+  },
+  "learningRequiresPracticing": {
+    "message": "Learning a <0>{{languageAsWord}}</0> requires practicing speaking with others."
+  },
+  "itReallyIsThatEasy": {
+    "message": "It really is that easy"
+  },
+  "allYouHaveToDoIsBrowse": {
+    "message": "All you have to do is browse the web like normal."
+  },
+  "thinkYouKnowThisWord": {
+    "message": "Think you know this word?"
+  },
+  "myDreamIsToBeFluent": {
+    "message": "My dream is to be fluent in this <0>{{languageAsWord}}</0> in two years."
+  },
+  "testYourself": {
+    "message": "Test yourself"
+  },
+  "notSureHowToPronounceIt": {
+    "message": "Not sure how to pronounce it?"
+  },
+  "justTapTheSpeakerIcon": {
+    "message": "Just tap the speaker icon and Toucan will guide you through it."
+  },
+  "letsSeeIfYoureRight": {
+    "message": "Let’s see if you’re right!"
+  },
+  "whatDoYouThinkThis": {
+    "message": "What do you think this word means?"
+  },
+  "elephant": {
+    "message": "elephant"
+  },
+  "book": {
+    "message": "book"
+  },
+  "youLearnedYourFirstWord": {
+    "message": "You learned your first word with Toucan!"
+  },
+  "unlockMoreWaysToLearn": {
+    "message": "Unlock more ways to learn a new language and make it stick with Toucan Premium."
+  },
+  "whatDoYouWhatToLearnFirst": {
+    "message": "What do you want to learn first?"
+  },
+  "chooseAShortcutAndToucan": {
+    "message": "Choose a Shortcut and Toucan will focus on teaching you words and phrases related to that topic."
+  },
+  "learnTheWordsAndPhrases": {
+    "message": "Learn the words and phrases you need with Shortcuts"
+  },
+  "shortcutsTeachYouHelpful": {
+    "message": "Shortcuts teach you helpful words and phrases for common, real-life situations. "
+  },
+  "soInsteadOfLearningHowTo": {
+    "message": "So instead of learning how to ask where a library is, Toucan shows you how to order food, connect with loved ones and more!"
+  },
+  "yourShortcutWithoutLanguage": {
+    "message": "Your Shortcut"
+  },
+  "imHungry": {
+    "message": "I'm hungry"
+  },
+  "recommendedForYou": {
+    "message": "Recommended for you"
+  }
+}

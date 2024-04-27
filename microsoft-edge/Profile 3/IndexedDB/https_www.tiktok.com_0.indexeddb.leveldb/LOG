@@ -1,0 +1,6 @@
+2024/03/11-23:16:44.573 ebb Creating DB /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb since it was missing.
+2024/03/11-23:16:44.581 ebb Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/11-23:37:18.702 ebc Level-0 table #5: started
+2024/03/11-23:37:18.705 ebc Level-0 table #5: 827 bytes OK
+2024/03/11-23:37:18.709 ebc Delete type=0 #3
+2024/03/11-23:37:18.709 ebc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

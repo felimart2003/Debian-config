@@ -1,0 +1,7 @@
+2024/03/13-00:36:56.387 18b2 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Default/IndexedDB/https_keep.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/13-00:36:56.387 18b2 Recovering log #3
+2024/03/13-00:36:56.387 18b2 Reusing old log /home/felipe/.config/microsoft-edge/Default/IndexedDB/https_keep.google.com_0.indexeddb.leveldb/000003.log 
+2024/03/13-00:37:15.380 18b2 Level-0 table #5: started
+2024/03/13-00:37:15.383 18b2 Level-0 table #5: 2220 bytes OK
+2024/03/13-00:37:15.387 18b2 Delete type=0 #3
+2024/03/13-00:37:15.387 18b2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

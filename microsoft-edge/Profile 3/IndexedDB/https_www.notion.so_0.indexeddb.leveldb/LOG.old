@@ -1,0 +1,31 @@
+2024/04/05-20:42:04.141 e78 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/05-20:42:04.141 e78 Recovering log #53
+2024/04/05-20:42:04.142 e78 Reusing old log /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000053.log 
+2024/04/05-20:42:04.142 e78 Delete type=2 #51
+2024/04/05-20:42:06.538 e78 Level-0 table #58: started
+2024/04/05-20:42:06.541 e78 Level-0 table #58: 8188 bytes OK
+2024/04/05-20:42:06.545 e78 Delete type=0 #53
+2024/04/05-20:42:06.545 e78 Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0f\x00\x00\x05' @ 27362 : 1
+2024/04/05-20:42:06.545 e78 Compacting 1@0 + 1@1 files
+2024/04/05-20:42:06.549 e78 Generated table #59@0: 1225 keys, 16134 bytes
+2024/04/05-20:42:06.549 e78 Compacted 1@0 + 1@1 files => 16134 bytes
+2024/04/05-20:42:06.552 e78 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/05-20:42:06.553 e78 Delete type=2 #58
+2024/04/05-20:42:06.553 e78 Manual compaction at level-0 from '\x00\x0f\x00\x00\x05' @ 27362 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/04/05-20:42:12.551 e79 Compacting 1@1 + 1@2 files
+2024/04/05-20:42:12.558 e79 Generated table #60@1: 1668 keys, 60121 bytes
+2024/04/05-20:42:12.558 e79 Compacted 1@1 + 1@2 files => 60121 bytes
+2024/04/05-20:42:12.562 e79 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/05-20:42:12.562 e79 Delete type=2 #59
+2024/04/05-20:42:12.562 e79 Delete type=2 #49
+2024/04/05-20:42:12.562 e79 Delete type=2 #55
+2024/04/05-22:56:21.429 e78 Level-0 table #62: started
+2024/04/05-22:56:21.434 e78 Level-0 table #62: 244791 bytes OK
+2024/04/05-22:56:21.437 e78 Delete type=0 #57
+2024/04/05-22:56:21.438 e78 Manual compaction at level-0 from '\x00\x10\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/04/05-22:58:03.962 e79 Compacting 1@1 + 1@2 files
+2024/04/05-22:58:03.968 e79 Generated table #63@1: 2239 keys, 80798 bytes
+2024/04/05-22:58:03.968 e79 Compacted 1@1 + 1@2 files => 80798 bytes
+2024/04/05-22:58:03.972 e79 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/05-22:58:03.972 e79 Delete type=2 #60
+2024/04/05-22:58:03.972 e79 Delete type=2 #62

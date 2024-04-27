@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/options.css">
+  <title data-i18n="options_title"></title>
+</head>
+<body class="p-4">
+  <div class="container">
+    <div class="alert alert-warning d-none" role="alert" id="mute-warning" data-i18n="mute_warning"></div>
+    <h2 class="mb-3" data-i18n="options_title"></h2>
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="custom-tab" data-toggle="tab" href="#custom-panel" role="tab" aria-controls="custom-panel" aria-selected="true" data-i18n="tab_reminder"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="alarm-tab" data-toggle="tab" href="#alarm-panel" role="tab" aria-controls="alarm-panel" aria-selected="false" data-i18n="tab_time"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="tts-tab" data-toggle="tab" href="#tts-panel" role="tab" aria-controls="tts-panel" aria-selected="false" data-i18n="tab_tts"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="icon-tab" data-toggle="tab" href="#icon-panel" role="tab" aria-controls="icon-panel" aria-selected="false" data-i18n="tab_icon"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="other-tab" data-toggle="tab" href="#other-panel" role="tab" aria-controls="other-panel" aria-selected="false" data-i18n="tab_other"></a>
+      </li>
+    </ul>
+    <div class="tab-content border border-top-0">
+      <div class="tab-pane fade p-3 show active" id="custom-panel" role="tabpanel" aria-labelledby="custom-tab">
+        <div id="task-list"></div>
+        <div>
+          <button type="button" class="btn btn-primary" id="task-add" data-i18n="btn_add"></button>
+        </div>
+      </div>
+      <div class="tab-pane fade p-3" id="alarm-panel" role="tabpanel" aria-labelledby="alarm-tab">
+        <div class="custom-control custom-switch mb-4">
+          <input type="checkbox" class="custom-control-input" id="enable-alarm" checked>
+          <label class="custom-control-label" for="enable-alarm" data-i18n="btn_enable"></label>
+        </div>
+        <form id="time-settings">
+          <!-- alarm interval -->
+          <fieldset class="form-group">
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0" data-i18n="timer_interval"></legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="alarm-interval" id="interval-5" value="5">
+                  <label class="form-check-label" for="interval-5" data-i18n="timer_interval_5"></label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="alarm-interval" id="interval-10" value="10">
+                  <label class="form-check-label" for="interval-10" data-i18n="timer_interval_10"></label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="alarm-interval" id="interval-15" value="15">
+                  <label class="form-check-label" for="interval-15" data-i18n="timer_interval_15"></label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="alarm-interval" id="interval-20" value="20">
+                  <label class="form-check-label" for="interval-20" data-i18n="timer_interval_20"></label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="alarm-interval" id="interval-30" value="30">
+                  <label class="form-check-label" for="interval-30" data-i18n="timer_interval_30"></label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="alarm-interval" id="interval-60" value="60" checked>
+                  <label class="form-check-label" for="interval-60" data-i18n="timer_interval_60"></label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="alarm-interval" id="interval-120" value="120">
+                  <label class="form-check-label" for="interval-120" data-i18n="timer_interval_120"></label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="alarm-interval" id="interval-180" value="180">
+                  <label class="form-check-label" for="interval-180" data-i18n="timer_interval_180"></label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0" data-i18n="notify_ways"></legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="time-notify-voice" checked>
+                  <label class="form-check-label" for="time-notify-voice" data-i18n="voice_notify"></label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="time-notify-system" checked>
+                  <label class="form-check-label" for="time-notify-system" data-i18n="system_notify"></label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0" data-i18n="dnd_label"></legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="dnd-locked" checked>
+                  <label class="form-check-label" for="dnd-locked" data-i18n="dnd_locked"></label>
+                  <small class="form-text text-muted mt-0 mb-1" data-i18n="dnd_locked_desc"></small>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="dnd-fullscreen" checked>
+                  <label class="form-check-label" for="dnd-fullscreen" data-i18n="dnd_fullscreen"></label>
+                  <small class="form-text text-muted mt-0 mb-1" data-i18n="dnd_fullscreen_desc"></small>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="dnd-audible" checked>
+                  <label class="form-check-label" for="dnd-audible" data-i18n="dnd_audible"></label>
+                  <small class="form-text text-muted mt-0 mb-1" data-i18n="dnd_audible_desc"></small>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="tab-pane fade p-3" id="tts-panel" role="tabpanel" aria-labelledby="tts-tab">
+        <form>
+          <!-- TTS Engines -->
+          <div class="form-group row">
+            <label for="tts-engine" class="col-sm-2 col-form-label" data-i18n="tts_engine"></label>
+            <div class="col-auto">
+              <select class="form-control" id="tts-engine"></select>
+            </div>
+          </div>
+          <!-- tts rate -->
+          <div class="form-group row">
+            <label for="tts-rate" class="col-sm-2 col-form-label pt-0" data-i18n="tts_rate"></label>
+            <div class="col-sm-8 col-xl-6">
+              <input type="range" class="custom-range" min="0.5" max="1.5" step="0.1" id="tts-rate" value="1">
+              <div class="text-center"><small class="text-muted" id="tts-rate-indicator"></small></div>
+            </div>
+          </div>
+          <!-- tts volume -->
+          <div class="form-group row">
+            <label for="tts-volume" class="col-sm-2 col-form-label pt-0" data-i18n="tts_volume"></label>
+            <div class="col-sm-8 col-xl-6">
+              <input type="range" class="custom-range" min="0" max="1" step="0.1" id="tts-volume" value="1">
+              <div class="text-center"><small class="text-muted" id="tts-volume-indicator"></small></div>
+            </div>
+          </div>
+          <!-- test text -->
+          <div class="form-group row">
+            <label for="tts-test-text" class="col-sm-2 col-form-label" data-i18n="tts_test_text"></label>
+            <div class="col-sm-8 col-xl-6">
+              <input type="text" class="form-control" id="tts-test-text" value="0:00 , 2:00 , 3:15 , 4:05 , 12:00 , 15:30 , 21:45">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <button type="button" class="btn btn-success" id="tts-play" data-i18n="btn_speak"></button>
+              <button type="button" class="btn btn-primary" id="tts-save" data-i18n="btn_save"></button>
+              <span class="text-success ml-2 d-none" id="tts-saved" data-i18n="btn_saved"></span>
+            </div>
+          </div>
+        </form>
+        <hr>
+        <details>
+          <summary data-i18n="tts_summary"></summary>
+          <p data-i18n="tts_desc"class="mb-2"></p>
+          <ul class="mb-0">
+            <li><a id="tts-hlep-win" href="https://support.office.com/en-us/article/How-to-download-Text-to-Speech-languages-for-Windows-10-d5a6b612-b3ae-423f-afa5-4f6caf1ec5d3" target="_blank">Windows</a></li>
+            <li><a id="tts-hlep-mac" href="https://support.apple.com/guide/mac-help/change-the-voice-your-mac-uses-to-speak-text-mchlp2290/mac" target="_blank">Mac</a></li>
+          </ul>
+        </details>
+      </div>
+      <div class="tab-pane fade p-3" id="icon-panel" role="tabpanel" aria-labelledby="icon-tab">
+        <!-- popup page -->
+        <fieldset class="form-group">
+          <div class="row">
+            <legend class="col-form-label col-sm-2 pt-0" data-i18n="popup_setting"></legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="popup-clock" id="popup-clock-analog" value="analog" checked>
+                <label class="form-check-label" for="popup-clock-analog" data-i18n="popup_clock_analog"></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="popup-clock" id="popup-clock-digital" value="digital">
+                <label class="form-check-label" for="popup-clock-digital" data-i18n="popup_clock_digital"></label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="popup-second" checked>
+                <label class="form-check-label" for="popup-second" data-i18n="popup_second"></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="popup-date" checked>
+                <label class="form-check-label" for="popup-date" data-i18n="popup_date"></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="popup-reminder" checked>
+                <label class="form-check-label" for="popup-reminder" data-i18n="popup_reminder"></label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="form-group row">
+          <div class="col-sm-2" data-i18n="badge_setting"></div>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="badge-time">
+              <label class="form-check-label" for="badge-time" data-i18n="badge_time"></label>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12/24 hour -->
+        <fieldset class="form-group">
+          <div class="row">
+            <legend class="col-form-label col-sm-2 pt-0" data-i18n="hour_format"></legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="hour-format" id="hour12" value="hour12" checked>
+                <label class="form-check-label" for="hour12" data-i18n="hour_12"></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="hour-format" id="hour24" value="hour24">
+                <label class="form-check-label" for="hour24" data-i18n="hour_24"></label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+      <div class="tab-pane fade p-3" id="other-panel" role="tabpanel" aria-labelledby="other-tab">
+        <form>
+          <div class="form-group row">
+            <div class="col-sm-2" data-i18n="mute_text"></div>
+            <div class="col-sm-10">
+              <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="mute-all">
+                <label class="custom-control-label" for="mute-all" data-i18n="mute_label"></label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <a href="#" id="shortcuts" data-i18n="keyboard_shortcuts"></a> <span data-i18n="shortcuts_for"></span>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Task Modal -->
+  <div class="modal fade" id="task-modal" tabindex="-1" role="dialog" aria-labelledby="task-modal-title" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="task-modal-title" data-i18n="reminder_edit_title"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+          <form>
+            <div class="form-group row">
+              <label for="task-repeat" class="col-sm-2 col-form-label" data-i18n="reminder_type"></label>
+              <div class="col-auto">
+                <select class="form-control" id="task-repeat">
+                  <option value="once" data-i18n="repeat_once"></option>
+                  <option value="day" data-i18n="repeat_day" selected></option>
+                  <option value="week" data-i18n="repeat_week"></option>
+                  <option value="month" data-i18n="repeat_month"></option>
+                  <option value="year" data-i18n="repeat_year"></option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row d-none" id="task-repeat-once">
+              <label for="task-date" class="col-sm-2 col-form-label" data-i18n="reminder_date"></label>
+              <div class="col-auto">
+                <input type="date" class="form-control" id="task-date">
+                <div class="invalid-feedback" data-i18n="invalid_date"></div>
+              </div>
+            </div>
+            <div class="form-group row d-none" id="task-repeat-week">
+              <label class="col-sm-2 col-form-label" data-i18n="reminder_days"></label>
+              <div class="col-sm-10">
+                <ul class="pagination mb-0">
+                  <li class="page-item"><span class="page-link" data-value="0" data-i18n="week_0"></span></li>
+                  <li class="page-item"><span class="page-link" data-value="1" data-i18n="week_1"></span></li>
+                  <li class="page-item"><span class="page-link" data-value="2" data-i18n="week_2"></span></li>
+                  <li class="page-item"><span class="page-link" data-value="3" data-i18n="week_3"></span></li>
+                  <li class="page-item"><span class="page-link" data-value="4" data-i18n="week_4"></span></li>
+                  <li class="page-item"><span class="page-link" data-value="5" data-i18n="week_5"></span></li>
+                  <li class="page-item"><span class="page-link" data-value="6" data-i18n="week_6"></span></li>
+                </ul>
+                <div class="invalid-feedback" data-i18n="invalid_days"></div>
+              </div>
+            </div>
+            <div class="form-group row d-none" id="task-repeat-month">
+              <label class="col-sm-2 col-form-label" data-i18n="reminder_days"></label>
+              <div class="col-sm-10">
+                <div>
+                  <ul class="pagination mb-0" id="task-month-10">
+                    <li class="page-item"><span class="page-link" data-value="1">1</span></li>
+                    <li class="page-item"><span class="page-link" data-value="2">2</span></li>
+                    <li class="page-item"><span class="page-link" data-value="3">3</span></li>
+                    <li class="page-item"><span class="page-link" data-value="4">4</span></li>
+                    <li class="page-item"><span class="page-link" data-value="5">5</span></li>
+                    <li class="page-item"><span class="page-link" data-value="6">6</span></li>
+                    <li class="page-item"><span class="page-link" data-value="7">7</span></li>
+                    <li class="page-item"><span class="page-link" data-value="8">8</span></li>
+                    <li class="page-item"><span class="page-link" data-value="9">9</span></li>
+                    <li class="page-item"><span class="page-link" data-value="10">10</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <ul class="pagination mb-0" id="task-month-20">
+                    <li class="page-item"><span class="page-link" data-value="11">11</span></li>
+                    <li class="page-item"><span class="page-link" data-value="12">12</span></li>
+                    <li class="page-item"><span class="page-link" data-value="13">13</span></li>
+                    <li class="page-item"><span class="page-link" data-value="14">14</span></li>
+                    <li class="page-item"><span class="page-link" data-value="15">15</span></li>
+                    <li class="page-item"><span class="page-link" data-value="16">16</span></li>
+                    <li class="page-item"><span class="page-link" data-value="17">17</span></li>
+                    <li class="page-item"><span class="page-link" data-value="18">18</span></li>
+                    <li class="page-item"><span class="page-link" data-value="19">19</span></li>
+                    <li class="page-item"><span class="page-link" data-value="20">20</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <ul class="pagination mb-0" id="task-month-30">
+                    <li class="page-item"><span class="page-link" data-value="21">21</span></li>
+                    <li class="page-item"><span class="page-link" data-value="22">22</span></li>
+                    <li class="page-item"><span class="page-link" data-value="23">23</span></li>
+                    <li class="page-item"><span class="page-link" data-value="24">24</span></li>
+                    <li class="page-item"><span class="page-link" data-value="25">25</span></li>
+                    <li class="page-item"><span class="page-link" data-value="26">26</span></li>
+                    <li class="page-item"><span class="page-link" data-value="27">27</span></li>
+                    <li class="page-item"><span class="page-link" data-value="28">28</span></li>
+                    <li class="page-item"><span class="page-link" data-value="29">29</span></li>
+                    <li class="page-item"><span class="page-link" data-value="30">30</span></li>
+                    <li class="page-item"><span class="page-link" data-value="31">31</span></li>
+                  </ul>
+                </div>
+                <div class="form-check mt-1">
+                  <input class="form-check-input" type="checkbox" id="task-month-endday">
+                  <label class="form-check-label" for="task-month-endday" data-i18n="month_end"></label>
+                </div>
+                <div class="invalid-feedback" data-i18n="invalid_days"></div>
+              </div>
+            </div>
+            <div class="d-none" id="task-repeat-year"></div>
+            <div id="task-time-container"></div>
+            <div class="form-group row">
+              <label for="task-input" class="col-sm-2 col-form-label" data-i18n="reminder_content"></label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="task-input">
+                <div class="invalid-feedback" data-i18n="invalid_content"></div>
+              </div>
+            </div>
+            <fieldset>
+              <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0" data-i18n="notify_ways"></legend>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="task-notify-voice" checked>
+                    <label class="form-check-label" for="task-notify-voice" data-i18n="voice_notify"></label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="task-notify-system" checked>
+                    <label class="form-check-label" for="task-notify-system" data-i18n="system_notify"></label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <select class="form-control form-control-sm" id="task-notify-close">
+                      <option value="auto" data-i18n="notify_close_auto"></option>
+                      <option value="1" data-i18n="notify_close_1" selected></option>
+                      <option value="3" data-i18n="notify_close_3"></option>
+                      <option value="5" data-i18n="notify_close_5"></option>
+                      <option value="10" data-i18n="notify_close_10"></option>
+                      <option value="never" data-i18n="notify_close_never"></option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" data-i18n="btn_cancel"></button>
+          <button type="button" class="btn btn-primary" id="task-save" data-i18n="btn_save"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <template id="task-time-tp">
+    <div class="form-group row">
+      <label for="task-time" class="col-sm-2 col-form-label" data-i18n="reminder_time"></label>
+      <div class="col-auto">
+        <input type="time" class="form-control" id="task-time">
+        <div class="invalid-feedback" data-i18n="invalid_time"></div>
+      </div>
+      <div class="col-auto time-right">
+        <img src="img/add_circle.svg" class="icon-button">
+        <img src="img/remove_circle.svg" class="icon-button">
+      </div>
+    </div>
+  </template>
+
+  <template id="task-year-tp">
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label" data-i18n="reminder_days"></label>
+      <div class="col-auto pr-2">
+        <select class="form-control">
+          <option value="1" data-i18n="month_1"></option>
+          <option value="2" data-i18n="month_2"></option>
+          <option value="3" data-i18n="month_3"></option>
+          <option value="4" data-i18n="month_4"></option>
+          <option value="5" data-i18n="month_5"></option>
+          <option value="6" data-i18n="month_6"></option>
+          <option value="7" data-i18n="month_7"></option>
+          <option value="8" data-i18n="month_8"></option>
+          <option value="9" data-i18n="month_9"></option>
+          <option value="10" data-i18n="month_10"></option>
+          <option value="11" data-i18n="month_11"></option>
+          <option value="12" data-i18n="month_12"></option>
+        </select>
+      </div>
+      <div class="col-auto pl-0">
+        <select class="form-control">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        <div class="invalid-feedback"></div>
+      </div>
+      <div class="col-auto time-right">
+        <img src="img/add_circle.svg" class="icon-button">
+        <img src="img/remove_circle.svg" class="icon-button">
+      </div>
+    </div>
+  </template>
+
+  <template id="task-item-tp">
+    <div>
+      <div class="row mb-2">
+        <h4 class="col-sm-9 mb-0 text-truncate"></h4>
+        <div class="col-sm-3 my-auto text-right">
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="customSwitch1">
+            <label class="custom-control-label" for="customSwitch1" data-i18n="btn_enable"></label>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-9 text-truncate task-desc"></div>
+        <div class="col-sm-3 text-right">
+          <button type="button" class="btn btn-primary btn-sm" data-i18n="btn_edit"></button>
+          <button type="button" class="btn btn-danger btn-sm" data-i18n="btn_del"></button>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </template>
+
+  <script type="text/javascript" src="jslib/jquery.slim.min.js"></script>
+  <script type="text/javascript" src="jslib/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/task-options.js"></script>
+  <script type="text/javascript" src="js/options.js"></script>
+</body>
+</html>

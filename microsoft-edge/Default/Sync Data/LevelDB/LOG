@@ -1,0 +1,9 @@
+2024/04/04-03:22:46.398 cb1 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/04/04-03:22:46.398 cb1 Recovering log #390
+2024/04/04-03:22:46.400 cb1 Reusing old log /home/felipe/.config/microsoft-edge/Default/Sync Data/LevelDB/000390.log 
+2024/04/04-03:23:22.092 cb3 Level-0 table #394: started
+2024/04/04-03:23:22.098 cb3 Level-0 table #394: 145154 bytes OK
+2024/04/04-03:23:22.104 cb3 Delete type=0 #390
+2024/04/04-03:25:12.772 cb3 Level-0 table #396: started
+2024/04/04-03:25:12.777 cb3 Level-0 table #396: 139533 bytes OK
+2024/04/04-03:25:12.791 cb3 Delete type=0 #393

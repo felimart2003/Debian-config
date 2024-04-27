@@ -1,0 +1,17 @@
+2024/04/26-15:50:16.184 17e4 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/26-15:50:16.184 17e4 Recovering log #61
+2024/04/26-15:50:16.188 17e4 Reusing old log /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000061.log 
+2024/04/26-15:50:17.123 17e4 Level-0 table #66: started
+2024/04/26-15:50:17.128 17e4 Level-0 table #66: 189798 bytes OK
+2024/04/26-15:50:17.131 17e4 Delete type=0 #61
+2024/04/26-15:50:17.131 17e4 Manual compaction at level-0 from '\x00\x11\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/04/26-15:50:38.201 17e4 Level-0 table #68: started
+2024/04/26-15:50:38.203 17e4 Level-0 table #68: 1039 bytes OK
+2024/04/26-15:50:38.207 17e4 Delete type=0 #65
+2024/04/26-15:50:38.207 17e4 Manual compaction at level-0 from '\x00\x12\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at '\x00\x12\x00\x00\x05' @ 42974 : 1
+2024/04/26-15:50:38.207 17e4 Compacting 1@0 + 1@1 files
+2024/04/26-15:50:38.211 17e4 Generated table #69@0: 3274 keys, 42067 bytes
+2024/04/26-15:50:38.211 17e4 Compacted 1@0 + 1@1 files => 42067 bytes
+2024/04/26-15:50:38.215 17e4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/26-15:50:38.215 17e4 Delete type=2 #68
+2024/04/26-15:50:38.215 17e4 Manual compaction at level-0 from '\x00\x12\x00\x00\x05' @ 42974 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at (end)

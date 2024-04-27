@@ -1,0 +1,7 @@
+2024/04/27-17:25:37.927 c5f Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/27-17:25:37.927 c5f Recovering log #3
+2024/04/27-17:25:37.934 c5f Reusing old log /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000003.log 
+2024/04/27-17:33:29.267 c60 Level-0 table #5: started
+2024/04/27-17:33:29.282 c60 Level-0 table #5: 3514167 bytes OK
+2024/04/27-17:33:29.285 c60 Delete type=0 #3
+2024/04/27-17:33:29.286 c60 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

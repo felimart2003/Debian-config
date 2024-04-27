@@ -1,0 +1,14 @@
+{
+   "description": {
+      "message": "Análisis para ayudarte a entender y controlar el uso de tu sitio web, para lograr así tener menos distracciones y mejorar tu productividad"
+   },
+   "name": {
+      "message": "StayFree - Bloqueador de sitios web y análisis web"
+   },
+   "shortDescription": {
+      "message": "Análisis para entender/controlar uso web, reducir distracciones y mejorar productividad en tu sitio."
+   },
+   "shortName": {
+      "message": "StayFree"
+   }
+}

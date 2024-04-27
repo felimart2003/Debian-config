@@ -1,0 +1,12 @@
+{
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "https://lichess.org/" ]
+   } ],
+   "description": "Removes the buttons which start Blitz and Bullet games on LiChess",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7kSVWm8S62mhjtENGpj1z5TWXpkkToXeN0iqV5JrmZhyU8J/L9eiNYDX4DC+Py+DTgiUtVcjdIEoR/XYUQ3pZ/K48atM3m8q6YvejnvqrzyegulKuNK4YWfnW0g/ejNMuMiMHZPAd0FS6xEReLlxou7G0VcxdmEcmmMRARazBiCMh023KBVNTJDbzkR3CSFcFUc0lhUNSAX2lSvgTyh6ZL3gc37plpUB8FO8A6YOp4QZKMdxQgA2KeMv3NvkwJ9oDKnXuxzELT5WHNlX2/WZ5D8pexKbMlXlVqq8CkYvg7XFoQwL2S1tXteEcvdfuHXEXxcAXfZgTLf/u/ggnKBZ4QIDAQAB",
+   "manifest_version": 2,
+   "name": "LiChess - Disable Blitz and Bullet",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.0"
+}

@@ -1,0 +1,45 @@
+2024/04/04-03:22:47.064 cb1 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Default/Local Extension Settings/odfafepnkmbhccpbejgmiehpchacaeak/MANIFEST-000001
+2024/04/04-03:22:47.065 cb1 Recovering log #465
+2024/04/04-03:22:47.072 cb1 Reusing old log /home/felipe/.config/microsoft-edge/Default/Local Extension Settings/odfafepnkmbhccpbejgmiehpchacaeak/000465.log 
+2024/04/04-03:23:04.714 cb3 Level-0 table #469: started
+2024/04/04-03:23:04.742 cb3 Level-0 table #469: 2426752 bytes OK
+2024/04/04-03:23:04.746 cb3 Delete type=0 #465
+2024/04/04-03:23:04.746 cb3 Compacting 4@0 + 3@1 files
+2024/04/04-03:23:04.770 cb3 Generated table #470@0: 12 keys, 2133187 bytes
+2024/04/04-03:23:04.803 cb3 Generated table #471@0: 7 keys, 2514325 bytes
+2024/04/04-03:23:04.825 cb3 Generated table #472@0: 21 keys, 952838 bytes
+2024/04/04-03:23:04.825 cb3 Compacted 4@0 + 3@1 files => 5600350 bytes
+2024/04/04-03:23:04.829 cb3 compacted to: files[ 0 3 1 0 0 0 0 ]
+2024/04/04-03:23:04.829 cb3 Delete type=2 #461
+2024/04/04-03:23:04.829 cb3 Delete type=2 #469
+2024/04/04-03:23:04.829 cb3 Delete type=2 #464
+2024/04/04-03:23:04.829 cb3 Delete type=2 #458
+2024/04/04-03:23:04.829 cb3 Delete type=2 #466
+2024/04/04-03:23:04.829 cb3 Delete type=2 #460
+2024/04/04-03:23:04.829 cb3 Delete type=2 #462
+2024/04/04-03:23:04.876 cb3 Level-0 table #474: started
+2024/04/04-03:23:04.896 cb3 Level-0 table #474: 1769857 bytes OK
+2024/04/04-03:23:04.900 cb3 Delete type=0 #468
+2024/04/04-03:23:04.944 cb3 Level-0 table #476: started
+2024/04/04-03:23:04.959 cb3 Level-0 table #476: 1078725 bytes OK
+2024/04/04-03:23:04.965 cb3 Delete type=0 #473
+2024/04/04-03:23:07.641 cb1 Level-0 table #478: started
+2024/04/04-03:23:07.662 cb1 Level-0 table #478: 1455807 bytes OK
+2024/04/04-03:23:07.666 cb1 Delete type=0 #475
+2024/04/04-03:25:12.654 cb2 Level-0 table #480: started
+2024/04/04-03:25:12.685 cb2 Level-0 table #480: 3804680 bytes OK
+2024/04/04-03:25:12.689 cb2 Delete type=0 #477
+2024/04/04-03:25:12.690 cb1 Compacting 4@0 + 3@1 files
+2024/04/04-03:25:12.717 cb1 Generated table #481@0: 12 keys, 2148991 bytes
+2024/04/04-03:25:12.750 cb1 Generated table #482@0: 7 keys, 2512917 bytes
+2024/04/04-03:25:12.787 cb1 Generated table #483@0: 6 keys, 3861663 bytes
+2024/04/04-03:25:12.801 cb1 Generated table #484@0: 15 keys, 781653 bytes
+2024/04/04-03:25:12.801 cb1 Compacted 4@0 + 3@1 files => 9305224 bytes
+2024/04/04-03:25:12.804 cb1 compacted to: files[ 0 4 1 0 0 0 0 ]
+2024/04/04-03:25:12.805 cb1 Delete type=2 #480
+2024/04/04-03:25:12.805 cb1 Delete type=2 #472
+2024/04/04-03:25:12.805 cb1 Delete type=2 #478
+2024/04/04-03:25:12.805 cb1 Delete type=2 #471
+2024/04/04-03:25:12.805 cb1 Delete type=2 #470
+2024/04/04-03:25:12.805 cb1 Delete type=2 #476
+2024/04/04-03:25:12.805 cb1 Delete type=2 #474

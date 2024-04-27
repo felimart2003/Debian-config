@@ -1,0 +1,33 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "author": "Guokai Han",
+   "background": {
+      "service_worker": "sw.js"
+   },
+   "commands": {
+      "say-time": {
+         "description": "__MSG_command_saytime__"
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "icon/128.png",
+      "16": "icon/16.png",
+      "48": "icon/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsckM3SbDp3W50c9vgdfrlSNL2hUL/YHlqlTQRR21hu1P2EpM1Si4El2EsVQyFTf/1xEaOi3vNf0GjgnpR9wAxPixBtidul3FqVfh0BOSzulmGXka6aO63B3LRTwsTbDODzDOUzLnv40D+UcPLFtjE/zWdx5rqJkyxCaNtOP7aWbzliZ1bIBco5X+wrmGV/t3/JTczh36LA+d/Ttth1vQHpIsSMvA+4QbUzLy9Hgsj8yklS2rZv7nQNwOA05lIE+aaLWp7EngraXGW7LqxcjPkof8JBgnIFm33oLhR0zBW4DGL4yoZSI2vmIkkSK3s3ZYZVEXwBXJSwadzhattbo7/wIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "100",
+   "name": "__MSG_extName__",
+   "offline_enabled": true,
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "unlimitedStorage", "alarms", "tts", "idle", "background", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0"
+}

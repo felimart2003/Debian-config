@@ -1,0 +1,1 @@
+import{o as e,g as t,i as o}from"./defineAppConfig-_73fm9CR.js";const n={viewBox:"0 0 24 24",width:"1.2em",height:"1.2em"},c=o("path",{fill:"currentColor",d:"m10 17l5-5l-5-5v10Z"},null,-1),i=[c];function r(s,a){return e(),t("svg",n,i)}const l={name:"mdi-menu-right",render:r};export{l as I};

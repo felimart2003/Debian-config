@@ -1,0 +1,29 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "/images/yellow_chess_talk_128.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Quick Settings"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "locationCheck.js", "TextProcessor.js", "boardState.js", "APIRequests.js", "main.js" ],
+      "matches": [ "*://*.lichess.org/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Use voice control to play Lichess games!",
+   "host_permissions": [ "*://*.lichess.org/*" ],
+   "icons": {
+      "128": "/images/yellow_chess_talk_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuyJelWSW5dzTc3sPRRYgaRLA4wQ//mZP+MzVAA55U0crYvaarP5Y/yEr6o+/itl9JX/hFFqezhRZXk8l1tavazi/oXJfU28+OyMIcdxdjwtX+frAgS09kiU+8d76MG+nvqKFzkXGgl3DTbVbLgNdjJi13RDTRCHcHGXRz+NpYYgVnJvJ5Uzh8Af8OLHQ6een2uVsDcfPf+Wm2lBdFL2x368yay2nrNlMcNjQyYsYIMcRRESZjMRFSFDq/HcgKjG1wn5GBpUxXmZFoezKiTEM+berFa0hnFE87/8yG6kKH0Md5EkqNz+zSNkTVOjsSBBYF7BQBr0NRhH9RbNfOOER7QIDAQAB",
+   "manifest_version": 3,
+   "name": "Speak to Lichess",
+   "options_page": "options.html",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.3"
+}

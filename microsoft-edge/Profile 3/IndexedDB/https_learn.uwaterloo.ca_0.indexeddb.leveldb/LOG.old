@@ -1,0 +1,7 @@
+2024/04/10-18:14:11.558 1901 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_learn.uwaterloo.ca_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/10-18:14:11.558 1901 Recovering log #3
+2024/04/10-18:14:11.558 1901 Reusing old log /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_learn.uwaterloo.ca_0.indexeddb.leveldb/000003.log 
+2024/04/10-18:14:13.828 1902 Level-0 table #5: started
+2024/04/10-18:14:13.832 1902 Level-0 table #5: 851 bytes OK
+2024/04/10-18:14:13.836 1902 Delete type=0 #3
+2024/04/10-18:14:13.836 1902 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

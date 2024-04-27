@@ -1,0 +1,14 @@
+2024/04/04-03:26:16.747 cb1 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Default/IndexedDB/chrome-extension_johejpedmdkeiffkdaodgoipdjodhlld_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/04-03:26:16.748 cb1 Recovering log #2661
+2024/04/04-03:26:16.748 cb1 Reusing old log /home/felipe/.config/microsoft-edge/Default/IndexedDB/chrome-extension_johejpedmdkeiffkdaodgoipdjodhlld_0.indexeddb.leveldb/002661.log 
+2024/04/04-03:26:16.748 cb1 Delete type=2 #2659
+2024/04/04-03:26:16.759 cb3 Level-0 table #2666: started
+2024/04/04-03:26:16.764 cb3 Level-0 table #2666: 1915 bytes OK
+2024/04/04-03:26:16.771 cb3 Delete type=0 #2661
+2024/04/04-03:26:16.771 cb1 Manual compaction at level-0 from ' \xa5\x02\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xa6\x02\x00\x00\x00' @ 0 : 0; will stop at ' \xa5\x02\x00\x00\x05' @ 22583 : 1
+2024/04/04-03:26:16.771 cb1 Compacting 1@0 + 1@1 files
+2024/04/04-03:26:16.777 cb1 Generated table #2667@0: 38 keys, 1379 bytes
+2024/04/04-03:26:16.777 cb1 Compacted 1@0 + 1@1 files => 1379 bytes
+2024/04/04-03:26:16.780 cb1 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/04-03:26:16.781 cb1 Delete type=2 #2666
+2024/04/04-03:26:16.781 cb1 Manual compaction at level-0 from ' \xa5\x02\x00\x00\x05' @ 22583 : 1 .. ' \xa6\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

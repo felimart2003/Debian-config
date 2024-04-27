@@ -1,0 +1,57 @@
+2024/04/27-14:32:12.870 c5f Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/Local Extension Settings/mnbndgmknlpdjdnjfmfcdjoegcckoikn/MANIFEST-000001
+2024/04/27-14:32:12.870 c5f Recovering log #1187
+2024/04/27-14:32:12.875 c5f Reusing old log /home/felipe/.config/microsoft-edge/Profile 3/Local Extension Settings/mnbndgmknlpdjdnjfmfcdjoegcckoikn/001187.log 
+2024/04/27-14:32:18.888 c60 Level-0 table #1191: started
+2024/04/27-14:32:18.896 c60 Level-0 table #1191: 515025 bytes OK
+2024/04/27-14:32:18.900 c60 Delete type=0 #1187
+2024/04/27-14:32:18.901 c60 Compacting 4@0 + 1@1 files
+2024/04/27-14:32:18.907 c60 Generated table #1192@0: 3 keys, 26769 bytes
+2024/04/27-14:32:18.907 c60 Compacted 4@0 + 1@1 files => 26769 bytes
+2024/04/27-14:32:18.910 c60 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/04/27-14:32:18.911 c60 Delete type=2 #1182
+2024/04/27-14:32:18.911 c60 Delete type=2 #1188
+2024/04/27-14:32:18.911 c60 Delete type=2 #1184
+2024/04/27-14:32:18.911 c60 Delete type=2 #1186
+2024/04/27-14:32:18.911 c60 Delete type=2 #1191
+2024/04/27-14:54:53.703 c60 Level-0 table #1194: started
+2024/04/27-14:54:53.717 c60 Level-0 table #1194: 524452 bytes OK
+2024/04/27-14:54:53.721 c60 Delete type=0 #1190
+2024/04/27-14:55:57.906 c60 Level-0 table #1196: started
+2024/04/27-14:55:57.917 c60 Level-0 table #1196: 504794 bytes OK
+2024/04/27-14:55:57.921 c60 Delete type=0 #1193
+2024/04/27-15:47:13.388 c60 Level-0 table #1198: started
+2024/04/27-15:47:13.395 c60 Level-0 table #1198: 499716 bytes OK
+2024/04/27-15:47:13.399 c60 Delete type=0 #1195
+2024/04/27-16:09:23.192 c6d Level-0 table #1200: started
+2024/04/27-16:09:23.200 c6d Level-0 table #1200: 518814 bytes OK
+2024/04/27-16:09:23.204 c6d Delete type=0 #1197
+2024/04/27-16:09:23.204 c6d Compacting 4@0 + 1@1 files
+2024/04/27-16:09:23.211 c6d Generated table #1201@0: 3 keys, 35377 bytes
+2024/04/27-16:09:23.211 c6d Compacted 4@0 + 1@1 files => 35377 bytes
+2024/04/27-16:09:23.215 c6d compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/04/27-16:09:23.215 c6d Delete type=2 #1200
+2024/04/27-16:09:23.215 c6d Delete type=2 #1192
+2024/04/27-16:09:23.215 c6d Delete type=2 #1198
+2024/04/27-16:09:23.215 c6d Delete type=2 #1194
+2024/04/27-16:09:23.215 c6d Delete type=2 #1196
+2024/04/27-16:55:39.504 c6d Level-0 table #1203: started
+2024/04/27-16:55:39.517 c6d Level-0 table #1203: 522434 bytes OK
+2024/04/27-16:55:39.521 c6d Delete type=0 #1199
+2024/04/27-16:58:13.307 c60 Level-0 table #1205: started
+2024/04/27-16:58:13.321 c60 Level-0 table #1205: 521751 bytes OK
+2024/04/27-16:58:13.325 c60 Delete type=0 #1202
+2024/04/27-17:16:04.304 c60 Level-0 table #1207: started
+2024/04/27-17:16:04.317 c60 Level-0 table #1207: 520998 bytes OK
+2024/04/27-17:16:04.321 c60 Delete type=0 #1204
+2024/04/27-17:25:42.050 c60 Level-0 table #1209: started
+2024/04/27-17:25:42.057 c60 Level-0 table #1209: 513489 bytes OK
+2024/04/27-17:25:42.062 c60 Delete type=0 #1206
+2024/04/27-17:25:42.063 c60 Compacting 4@0 + 1@1 files
+2024/04/27-17:25:42.071 c60 Generated table #1210@0: 3 keys, 22643 bytes
+2024/04/27-17:25:42.071 c60 Compacted 4@0 + 1@1 files => 22643 bytes
+2024/04/27-17:25:42.075 c60 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/04/27-17:25:42.075 c60 Delete type=2 #1207
+2024/04/27-17:25:42.075 c60 Delete type=2 #1203
+2024/04/27-17:25:42.075 c60 Delete type=2 #1209
+2024/04/27-17:25:42.075 c60 Delete type=2 #1205
+2024/04/27-17:25:42.075 c60 Delete type=2 #1201

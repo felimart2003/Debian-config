@@ -1,0 +1,39 @@
+2024/03/06-12:49:28.481 e8e Reusing MANIFEST /home/felipe/.config/microsoft-edge/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/06-12:49:28.481 e8e Recovering log #148
+2024/03/06-12:49:28.481 e8e Reusing old log /home/felipe/.config/microsoft-edge/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000148.log 
+2024/03/06-12:53:25.814 e8d Level-0 table #153: started
+2024/03/06-12:53:25.834 e8d Level-0 table #153: 1784714 bytes OK
+2024/03/06-12:53:25.839 e8d Delete type=0 #148
+2024/03/06-12:53:37.145 e8d Compacting 1@1 + 1@2 files
+2024/03/06-12:53:37.155 e8d Generated table #154@1: 365 keys, 43283 bytes
+2024/03/06-12:53:37.155 e8d Compacted 1@1 + 1@2 files => 43283 bytes
+2024/03/06-12:53:37.159 e8d compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/06-12:53:37.159 e8d Delete type=2 #153
+2024/03/06-12:53:37.159 e8d Delete type=2 #150
+2024/03/06-12:57:10.798 e8d Level-0 table #156: started
+2024/03/06-12:57:10.805 e8d Level-0 table #156: 1260968 bytes OK
+2024/03/06-12:57:10.809 e8d Delete type=0 #152
+2024/03/06-13:03:57.573 e8d Compacting 1@1 + 1@2 files
+2024/03/06-13:03:57.578 e8d Generated table #157@1: 429 keys, 52992 bytes
+2024/03/06-13:03:57.578 e8d Compacted 1@1 + 1@2 files => 52992 bytes
+2024/03/06-13:03:57.581 e8d compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/06-13:03:57.581 e8d Delete type=2 #156
+2024/03/06-13:03:57.582 e8d Delete type=2 #154
+2024/03/06-13:09:57.003 e8d Level-0 table #159: started
+2024/03/06-13:09:57.011 e8d Level-0 table #159: 1251712 bytes OK
+2024/03/06-13:09:57.017 e8d Delete type=0 #155
+2024/03/06-13:11:56.117 e8c Compacting 1@1 + 1@2 files
+2024/03/06-13:11:56.123 e8c Generated table #160@1: 430 keys, 37994 bytes
+2024/03/06-13:11:56.124 e8c Compacted 1@1 + 1@2 files => 37994 bytes
+2024/03/06-13:11:56.129 e8c compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/06-13:11:56.130 e8c Delete type=2 #157
+2024/03/06-13:11:56.130 e8c Delete type=2 #159
+2024/03/06-13:17:19.429 e8d Level-0 table #162: started
+2024/03/06-13:17:19.453 e8d Level-0 table #162: 1289745 bytes OK
+2024/03/06-13:17:19.458 e8d Delete type=0 #158
+2024/03/06-13:18:17.775 e8d Compacting 1@1 + 1@2 files
+2024/03/06-13:18:17.781 e8d Generated table #163@1: 448 keys, 51350 bytes
+2024/03/06-13:18:17.781 e8d Compacted 1@1 + 1@2 files => 51350 bytes
+2024/03/06-13:18:17.784 e8d compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/06-13:18:17.785 e8d Delete type=2 #160
+2024/03/06-13:18:17.785 e8d Delete type=2 #162

@@ -1,0 +1,12 @@
+2024/04/26-20:52:09.630 f06 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/26-20:52:09.631 f06 Recovering log #384
+2024/04/26-20:52:09.642 f06 Reusing old log /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000384.log 
+2024/04/26-21:23:17.267 f07 Level-0 table #389: started
+2024/04/26-21:23:17.289 f07 Level-0 table #389: 1635315 bytes OK
+2024/04/26-21:23:17.294 f07 Delete type=0 #384
+2024/04/26-21:40:12.290 f07 Compacting 1@1 + 1@2 files
+2024/04/26-21:40:12.298 f07 Generated table #390@1: 968 keys, 104727 bytes
+2024/04/26-21:40:12.298 f07 Compacted 1@1 + 1@2 files => 104727 bytes
+2024/04/26-21:40:12.302 f07 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/26-21:40:12.302 f07 Delete type=2 #389
+2024/04/26-21:40:12.303 f07 Delete type=2 #386

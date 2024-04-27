@@ -1,0 +1,15 @@
+<svg width="192" height="192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#a)">
+    <path transform="matrix(1 0 0 -1 0 192)" fill="url(#b)" d="M0 0h192v192H0z"/>
+    <path d="M113.96 38.607c4.298 13.483 10.797 23.256 28.068 23.256-1.337 18.37 16.982 35.433 41.879 23.44C191.245 95.414 203.17 102 216.64 102c22.251 0 40.308-17.952 40.36-40.137V-1.765L67.52-2c-7.548 26.915 13.811 50.406 46.44 40.607Z" fill="#fff"/>
+  </g>
+  <defs>
+    <radialGradient id="b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-95.49137 -134.5036 135.4723 -96.1791 192 192)">
+      <stop stop-color="#296F8E" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#296F8E" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="a">
+      <path fill="#fff" d="M0 0h192v192H0z"/>
+    </clipPath>
+  </defs>
+</svg>

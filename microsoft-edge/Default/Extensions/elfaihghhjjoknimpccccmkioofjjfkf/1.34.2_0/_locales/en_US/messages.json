@@ -1,0 +1,14 @@
+{
+   "description": {
+      "message": "Analytics to help you understand and control your website usage, leading to less distractions and enhanced productivity"
+   },
+   "name": {
+      "message": "StayFree - Website Blocker & Web Analytics"
+   },
+   "shortDescription": {
+      "message": "Analytics for website control, less distractions, and boosted productivity."
+   },
+   "shortName": {
+      "message": "StayFree"
+   }
+}

@@ -1,0 +1,211 @@
+body {
+  width: 380px;
+  height: 380px;
+}
+
+.content-container {
+  margin-top: 15px;
+}
+
+#close-button-signed-in, #close-button-signed-out {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+#close-button-signed-in:focus, #close-button-signed-out {
+  outline: none;
+}
+
+.language-selector-dropdown {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.word-count-container {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  height: 58px;
+}
+
+.outer {
+  width:100%;
+  text-align: center;
+}
+
+.inner {
+  display: inline-block;
+}
+
+.word-count-button {
+  width: 56px;
+  height: 56px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.word-count-button:focus {
+  outline: none;
+}
+
+.word-count-button img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+#decreaseWordCountButton {
+  float: left;
+  margin-left: 10px;
+}
+
+#increaseWordCountButton {
+  float: right;
+  margin-right: 20px;
+}
+
+.permissions-button-container {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.navbar-container {
+  height: 60px;
+  padding-top:20px;
+}
+
+#wordCountHeader {
+  margin-top: 13px;
+  font-family: 'Karla', sans-serif !important;
+  font-size: 21px !important;
+  font-weight: 400px !important;
+  color: #16181E;
+}
+
+p {
+  font-family: 'Karla', sans-serif !important;
+  font-size: 21px !important;
+  font-weight: 400px !important;
+  color: #16181E;
+}
+
+ul li {
+  color: #00A9A1;
+}
+
+.switch-label {
+  color: white;
+  font-family: 'Karla', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400px !important;
+}
+
+#sign-in-button, #sign-in-button:hover {
+  margin-bottom: 32px;
+  margin-top: 40px;
+  background-color: #08678C;
+  color: white;
+  width: 225px;
+  height: 56px;
+  border-radius: 8px !important;
+  padding-top: 10px;
+}
+
+.subtitle {
+  text-align: left;
+  font-family: 'Karla', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400px !important;
+  color: #8091A5;
+  margin-bottom: -0px;
+}
+
+.pause-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #08678C;
+  width: 225px;
+  height: 56px;
+  color: white;
+  border-radius: 8px !important;
+  font-family: 'Karla', sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 700px !important;
+}
+
+.permissions-button {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  background-color: green !important;
+  width: 225px;
+  height: 56px;
+  color: white;
+  border-radius: 8px !important;
+  font-family: 'Karla', sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 700px !important;
+  margin: 0 auto;
+}
+
+#feedback-link {
+  padding-top: 5px;
+  display: block;
+  margin-bottom: 24px;
+  font-family: 'Karla', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400px !important;
+  color: #2D9EFF;
+}
+
+.header {
+  height: 150px;
+  background: url(/images/extension_header_background_image.svg) no-repeat bottom left ;
+  background-size:  left;
+  background-overflow: visible;
+  margin-bottom: 0px;
+}
+
+.header-signed-out {
+  height: 120px;
+  background: url(/extension_header_background_image.svg) no-repeat bottom left ;
+  background-size:  left;
+  background-overflow: visible;
+}
+
+.nav {
+  padding: 10px;
+}
+
+.logo {
+  font-family: 'Baloo Bhai', cursive !important;
+  font-size: 32px !important;
+  color: white !important;
+  cursor: pointer !important;
+  background-color: transparent;
+  border: none;
+}
+
+h3 {
+  font-family: 'Karla', sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 700px !important;
+  color: white;
+}
+
+.selection-container {
+  margin-top: -15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dropdown-toggle, .dropdown-toggle:hover, .dropdown-toggle:focus, .dropdown-toggle:active, .open{
+  background-color: transparent;
+  color: white;
+  border: solid;
+  border-width: 1px;
+  border-color: white;
+}
+

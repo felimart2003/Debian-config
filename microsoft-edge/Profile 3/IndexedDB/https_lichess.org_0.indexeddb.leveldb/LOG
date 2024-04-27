@@ -1,0 +1,6 @@
+2024/03/13-20:05:10.212 1871 Creating DB /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_lichess.org_0.indexeddb.leveldb since it was missing.
+2024/03/13-20:05:10.220 1871 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_lichess.org_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/13-21:28:56.845 1872 Level-0 table #5: started
+2024/03/13-21:28:56.849 1872 Level-0 table #5: 1077 bytes OK
+2024/03/13-21:28:56.853 1872 Delete type=0 #3
+2024/03/13-21:28:56.853 1872 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

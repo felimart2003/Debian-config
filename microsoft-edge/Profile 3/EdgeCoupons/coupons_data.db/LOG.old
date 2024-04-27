@@ -1,0 +1,6 @@
+2024/04/27-14:17:58.521 1bbc Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/EdgeCoupons/coupons_data.db/MANIFEST-000001
+2024/04/27-14:17:58.521 1bbc Recovering log #164
+2024/04/27-14:17:58.522 1bbc Reusing old log /home/felipe/.config/microsoft-edge/Profile 3/EdgeCoupons/coupons_data.db/000164.log 
+2024/04/27-14:18:00.106 1bbb Level-0 table #168: started
+2024/04/27-14:18:00.114 1bbb Level-0 table #168: 903822 bytes OK
+2024/04/27-14:18:00.118 1bbb Delete type=0 #164

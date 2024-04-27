@@ -1,0 +1,51 @@
+body.lichessTools .lichessTools-chapterControls div[role="footer"] {
+  display:flex;
+  justify-content: space-around;
+  background: #f8f8f8;
+  height:2.5em;
+  align-items: stretch;
+}
+
+@media not print and (prefers-color-scheme: dark) {
+  body.lichessTools.system .lichessTools-chapterControls div[role="footer"] {
+    background: #2D2B29;
+  }
+}
+
+body.lichessTools.dark .lichessTools-chapterControls div[role="footer"] {
+  background: #2D2B29;
+}
+
+body.lichessTools.transp .lichessTools-chapterControls div[role="footer"] {
+  background: transparent;
+}
+
+
+body.lichessTools .lichessTools-chapterControls:not(:has(div.study__chapters)) div[role="footer"] {
+  display:none;
+}
+
+body.lichessTools .lichessTools-chapterControls div[role="footer"] button {
+  flex-grow: 1;
+}
+
+body.lichessTools div.study__side.lichessTools-chapterControls {
+  flex-grow:1;
+}
+
+body.lichessTools div.study__side.lichessTools-chapterControls div.study__chapters {
+  flex-grow:1;
+}
+
+body.lichessTools:has(.lichessTools-chapterControls) div.analyse__moves button.next {
+  display:none;
+}
+
+/* Prettier */
+body.lichessTools.lichessTools-prettier .lichessTools-chapterControls div[role="footer"] {
+  background:var(--backgroundColor);
+}
+
+body.lichessTools.lichessTools-prettier section.mchat {
+  margin-top:2px !important;
+}

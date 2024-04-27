@@ -1,0 +1,15 @@
+2024/03/25-00:21:44.857 1068 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Default/Local Extension Settings/fdjamakpfbbddfjaooikfcpapjohcfmg/MANIFEST-000001
+2024/03/25-00:21:44.857 1068 Recovering log #393
+2024/03/25-00:21:44.863 1068 Reusing old log /home/felipe/.config/microsoft-edge/Default/Local Extension Settings/fdjamakpfbbddfjaooikfcpapjohcfmg/000393.log 
+2024/03/25-00:42:57.219 1068 Compacting 1@0 + 1@1 files
+2024/03/25-00:42:57.230 1068 Generated table #396@0: 55 keys, 1146226 bytes
+2024/03/25-00:42:57.230 1068 Compacted 1@0 + 1@1 files => 1146226 bytes
+2024/03/25-00:42:57.233 1068 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/25-00:42:57.234 1068 Delete type=2 #392
+2024/03/25-00:42:57.234 1068 Delete type=2 #394
+2024/03/25-00:55:29.384 1068 Compacting 1@1 + 1@2 files
+2024/03/25-00:55:29.391 1068 Generated table #397@1: 51 keys, 1179926 bytes
+2024/03/25-00:55:29.391 1068 Compacted 1@1 + 1@2 files => 1179926 bytes
+2024/03/25-00:55:29.395 1068 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/25-00:55:29.395 1068 Delete type=2 #396
+2024/03/25-00:55:29.395 1068 Delete type=2 #381

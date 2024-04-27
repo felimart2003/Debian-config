@@ -1,0 +1,6 @@
+2024/03/05-21:44:57.572 1a6e Creating DB /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_fashionuer.com_0.indexeddb.leveldb since it was missing.
+2024/03/05-21:44:57.580 1a6e Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_fashionuer.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/05-21:44:58.322 1a6e Level-0 table #5: started
+2024/03/05-21:44:58.325 1a6e Level-0 table #5: 584 bytes OK
+2024/03/05-21:44:58.328 1a6e Delete type=0 #3
+2024/03/05-21:44:58.329 1a6e Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

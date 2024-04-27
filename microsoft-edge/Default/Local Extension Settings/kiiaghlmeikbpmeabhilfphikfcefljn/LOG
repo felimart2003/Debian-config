@@ -1,0 +1,21 @@
+2024/04/04-03:22:47.474 cb1 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Default/Local Extension Settings/kiiaghlmeikbpmeabhilfphikfcefljn/MANIFEST-000001
+2024/04/04-03:22:47.475 cb1 Recovering log #438
+2024/04/04-03:22:47.484 cb1 Reusing old log /home/felipe/.config/microsoft-edge/Default/Local Extension Settings/kiiaghlmeikbpmeabhilfphikfcefljn/000438.log 
+2024/04/04-03:22:58.573 cbe Level-0 table #442: started
+2024/04/04-03:22:58.595 cbe Level-0 table #442: 3747166 bytes OK
+2024/04/04-03:22:58.600 cbe Delete type=0 #438
+2024/04/04-03:22:58.601 cbe Compacting 4@0 + 1@1 files
+2024/04/04-03:22:58.613 cbe Generated table #443@0: 16 keys, 716271 bytes
+2024/04/04-03:22:58.613 cbe Compacted 4@0 + 1@1 files => 716271 bytes
+2024/04/04-03:22:58.616 cbe compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/04-03:22:58.617 cbe Delete type=2 #439
+2024/04/04-03:22:58.617 cbe Delete type=2 #442
+2024/04/04-03:22:58.617 cbe Delete type=2 #433
+2024/04/04-03:22:58.617 cbe Delete type=2 #435
+2024/04/04-03:22:58.617 cbe Delete type=2 #437
+2024/04/04-03:23:29.319 cb3 Level-0 table #445: started
+2024/04/04-03:23:29.333 cb3 Level-0 table #445: 4129854 bytes OK
+2024/04/04-03:23:29.338 cb3 Delete type=0 #441
+2024/04/04-03:25:25.151 cb2 Level-0 table #447: started
+2024/04/04-03:25:25.169 cb2 Level-0 table #447: 4114910 bytes OK
+2024/04/04-03:25:25.173 cb2 Delete type=0 #444

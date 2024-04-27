@@ -1,0 +1,7 @@
+2024/03/03-01:53:30.755 31d9 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.msn.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/03-01:53:30.756 31d9 Recovering log #3
+2024/03/03-01:53:30.756 31d9 Reusing old log /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.msn.com_0.indexeddb.leveldb/000003.log 
+2024/03/03-01:54:02.782 31da Level-0 table #5: started
+2024/03/03-01:54:02.787 31da Level-0 table #5: 63252 bytes OK
+2024/03/03-01:54:02.791 31da Delete type=0 #3
+2024/03/03-01:54:02.792 31da Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,19 @@
+{
+   "content_scripts": [ {
+      "js": [ "lichess.js" ],
+      "matches": [ "https://lichess.org/*" ]
+   }, {
+      "js": [ "chess.js" ],
+      "matches": [ "https://www.chess.com/*" ]
+   } ],
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk8aEWd9Q/8zDjQJsFAPKDDbJm652DB45ZYwDy1Xo4z89EWQ9m/UqQSYs3Wp76h53xV7Vv7xneW6tRj8y8NzRw/tgemUOSublDa3Xy4DTfPjKpyXjXXVmSepfVtbAT6S7bMcenIXsymgm3U2liMzNiQGZyTqWySUcPCxfXZs1dRe3vqe+IKCqf4dliyy6NzcF2w+FGcC3apIFAr2w6e+RFfy3lszHfomqra6/vphqavJPXwmfxwYdNVEbNY4e49JEt3zdCoO/1psu8CgFQNhpYEH1S6kCOWtCdCUoziiwSl12SkYWBdBh8AgHWmh11NyIDZChqCZwU6vjgaeYvZqHdwIDAQAB",
+   "manifest_version": 3,
+   "name": "Amoguschess",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.2"
+}

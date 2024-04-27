@@ -1,0 +1,103 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Digital-Clock";
+  font-display: block;
+  font-style: normal;
+  font-weight: 700;
+  src: url("/font/Cousine-Bold.ttf") format("truetype");
+}
+
+body {
+  width: max-content;
+  max-width: 500px;
+  margin: 0;
+  padding: 16px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 16px;
+}
+@media (prefers-color-scheme: dark) {
+  body { background-color: #121212; color: #FFFFFF; }
+  img {
+    filter: invert(100%);
+  }
+}
+
+#clock-container {
+  text-align: center;
+}
+#time > svg {
+  width: 280px;
+}
+.clock-date {
+  font-size: 24px;
+}
+.digital-clock-time {
+  font-family: 'Digital-Clock', monospace !important;
+  font-size: 48px;
+}
+
+/* analog clock svg style */
+.default-clock-ticks {
+  stroke-width: 2;
+  stroke: black;
+}
+.default-clock-numbers {
+  font-family: sans-serif;
+  font-size: 7pt;
+  font-weight: bold;
+  text-anchor: middle;
+  stroke: none;
+  fill: black;
+}
+.default-clock-face {
+  stroke-width: 2;
+  stroke: black;
+  fill: white;
+}
+.default-clock-hour, .default-clock-min {
+  fill: #333;
+}
+.default-clock-sec {
+  stroke: #f55;
+  stroke-linecap: round;
+}
+
+/* settings */
+.settings {
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.settings img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+body:hover .settings{
+  visibility: visible;
+}
+
+/* today's reminders */
+#reminder-container {
+  display: none;
+}
+hr {
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+}
+.reminder-header {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+#reminder-container ul {
+  margin: 0px;
+}

@@ -1,0 +1,17 @@
+2024/03/13-20:08:40.132 1871 Creating DB /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.gifyourgame.com_0.indexeddb.leveldb since it was missing.
+2024/03/13-20:08:40.140 1871 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.gifyourgame.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/13-20:25:42.391 1872 Level-0 table #5: started
+2024/03/13-20:25:42.416 1872 Level-0 table #5: 1158627 bytes OK
+2024/03/13-20:25:42.422 1872 Delete type=0 #3
+2024/03/13-20:26:07.147 1871 Level-0 table #7: started
+2024/03/13-20:26:07.151 1871 Level-0 table #7: 26298 bytes OK
+2024/03/13-20:26:07.154 1871 Delete type=0 #4
+2024/03/13-20:26:07.154 1871 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/03/13-20:26:07.154 1871 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x10\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00b\x00a\x00d\x00p\x00a\x00n\x00d\x00a' @ 660 : 1
+2024/03/13-20:26:07.154 1871 Compacting 1@1 + 1@2 files
+2024/03/13-20:26:07.158 1871 Generated table #8@1: 42 keys, 13756 bytes
+2024/03/13-20:26:07.158 1871 Compacted 1@1 + 1@2 files => 13756 bytes
+2024/03/13-20:26:07.162 1871 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/13-20:26:07.162 1871 Delete type=2 #5
+2024/03/13-20:26:07.162 1871 Delete type=2 #7
+2024/03/13-20:26:07.162 1871 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x10\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00b\x00a\x00d\x00p\x00a\x00n\x00d\x00a' @ 660 : 1 .. (end); will stop at (end)

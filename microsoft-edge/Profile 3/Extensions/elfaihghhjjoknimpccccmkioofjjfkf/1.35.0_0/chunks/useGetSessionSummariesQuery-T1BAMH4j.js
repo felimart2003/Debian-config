@@ -1,0 +1,1 @@
+import{aR as a}from"./defineAppConfig-bSouF0-Z.js";import{M as r,r as o}from"./useAddAppToIgnoreListDialogStore-3TvFnIDf.js";const u="session-summaries";function n(e,s=a()){const{state:t}=r();return o([u,e,t],s.getSessionSummaries,{keepPreviousData:!0})}export{u as g,n as u};

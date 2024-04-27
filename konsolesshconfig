@@ -1,0 +1,12 @@
+[Global plugin config]
+manageProfile=false
+
+[SSH Config][ly]
+hostname=76.70.177.110
+identifier=ly
+importedFromSshConfig=true
+port=2211
+profileName=
+sshkey=
+useSshConfig=true
+username=lynxlidar

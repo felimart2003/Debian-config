@@ -1,0 +1,1 @@
+importScripts("js/task.js", "js/alarm.js", "js/settings.js");

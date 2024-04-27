@@ -1,0 +1,15 @@
+2024/04/27-00:44:55.479 f05 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/devtools_devtools_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/27-00:44:55.479 f05 Recovering log #23
+2024/04/27-00:44:55.479 f05 Reusing old log /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/devtools_devtools_0.indexeddb.leveldb/000023.log 
+2024/04/27-00:45:02.241 f06 Level-0 table #28: started
+2024/04/27-00:45:02.245 f06 Level-0 table #28: 209 bytes OK
+2024/04/27-00:45:02.249 f06 Delete type=0 #23
+2024/04/27-00:45:02.250 f06 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/04/27-00:45:02.250 f06 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 8672 : 1
+2024/04/27-00:45:02.250 f06 Compacting 1@1 + 1@2 files
+2024/04/27-00:45:02.260 f06 Generated table #29@1: 395 keys, 810663 bytes
+2024/04/27-00:45:02.260 f06 Compacted 1@1 + 1@2 files => 810663 bytes
+2024/04/27-00:45:02.264 f06 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/27-00:45:02.264 f06 Delete type=2 #28
+2024/04/27-00:45:02.264 f06 Delete type=2 #25
+2024/04/27-00:45:02.264 f06 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 8672 : 1 .. (end); will stop at (end)

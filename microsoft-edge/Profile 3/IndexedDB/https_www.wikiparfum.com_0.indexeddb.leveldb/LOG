@@ -1,0 +1,6 @@
+2024/04/05-18:13:54.015 e79 Creating DB /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.wikiparfum.com_0.indexeddb.leveldb since it was missing.
+2024/04/05-18:13:54.024 e79 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.wikiparfum.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/05-18:33:58.891 e79 Level-0 table #5: started
+2024/04/05-18:33:58.894 e79 Level-0 table #5: 1965 bytes OK
+2024/04/05-18:33:58.898 e79 Delete type=0 #3
+2024/04/05-18:33:58.898 e79 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

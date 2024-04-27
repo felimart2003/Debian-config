@@ -1,0 +1,6 @@
+2024/03/01-21:34:43.713 16b7 Creating DB /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_mail.google.com_0.indexeddb.leveldb since it was missing.
+2024/03/01-21:34:43.724 16b7 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/01-21:40:42.939 16b8 Level-0 table #5: started
+2024/03/01-21:40:42.942 16b8 Level-0 table #5: 2103 bytes OK
+2024/03/01-21:40:42.946 16b8 Delete type=0 #3
+2024/03/01-21:40:42.946 16b8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

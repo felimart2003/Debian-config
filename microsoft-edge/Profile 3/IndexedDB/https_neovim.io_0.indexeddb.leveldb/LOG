@@ -1,0 +1,6 @@
+2024/04/27-01:37:21.133 f05 Creating DB /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_neovim.io_0.indexeddb.leveldb since it was missing.
+2024/04/27-01:37:21.145 f05 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_neovim.io_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/27-01:37:25.706 f06 Level-0 table #5: started
+2024/04/27-01:37:25.709 f06 Level-0 table #5: 804 bytes OK
+2024/04/27-01:37:25.713 f06 Delete type=0 #3
+2024/04/27-01:37:25.713 f06 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

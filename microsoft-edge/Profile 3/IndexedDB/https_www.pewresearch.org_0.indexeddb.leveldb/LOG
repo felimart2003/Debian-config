@@ -1,0 +1,6 @@
+2024/03/25-00:45:56.445 1067 Creating DB /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.pewresearch.org_0.indexeddb.leveldb since it was missing.
+2024/03/25-00:45:56.454 1067 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.pewresearch.org_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/25-01:29:24.347 1068 Level-0 table #5: started
+2024/03/25-01:29:24.351 1068 Level-0 table #5: 1365 bytes OK
+2024/03/25-01:29:24.355 1068 Delete type=0 #3
+2024/03/25-01:29:24.355 1068 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

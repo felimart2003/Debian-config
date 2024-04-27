@@ -1,0 +1,6 @@
+2024/03/27-21:03:59.319 c92 Creating DB /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www150.statcan.gc.ca_0.indexeddb.leveldb since it was missing.
+2024/03/27-21:03:59.327 c92 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www150.statcan.gc.ca_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/27-21:05:36.786 c92 Level-0 table #5: started
+2024/03/27-21:05:36.790 c92 Level-0 table #5: 848 bytes OK
+2024/03/27-21:05:36.794 c92 Delete type=0 #3
+2024/03/27-21:05:36.794 c92 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,6 @@
+2024/04/05-17:20:42.901 e78 Creating DB /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_ca.finance.yahoo.com_0.indexeddb.leveldb since it was missing.
+2024/04/05-17:20:42.909 e78 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_ca.finance.yahoo.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/05-17:26:06.577 e78 Level-0 table #5: started
+2024/04/05-17:26:06.580 e78 Level-0 table #5: 12115 bytes OK
+2024/04/05-17:26:06.584 e78 Delete type=0 #3
+2024/04/05-17:26:06.584 e78 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

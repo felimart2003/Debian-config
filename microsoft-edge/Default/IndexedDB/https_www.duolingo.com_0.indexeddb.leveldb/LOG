@@ -1,0 +1,6 @@
+2024/02/18-23:14:58.409 a9f Creating DB /home/felipe/.config/microsoft-edge/Default/IndexedDB/https_www.duolingo.com_0.indexeddb.leveldb since it was missing.
+2024/02/18-23:14:58.419 a9f Reusing MANIFEST /home/felipe/.config/microsoft-edge/Default/IndexedDB/https_www.duolingo.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/18-23:23:19.114 aa0 Level-0 table #5: started
+2024/02/18-23:23:19.118 aa0 Level-0 table #5: 12170 bytes OK
+2024/02/18-23:23:19.122 aa0 Delete type=0 #3
+2024/02/18-23:23:19.122 aa0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

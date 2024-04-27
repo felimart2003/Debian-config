@@ -1,0 +1,21 @@
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+2 screens: Height=682
+2 screens: Width=911
+2 screens: XPosition=504
+2 screens: YPosition=213
+DP-2 HDMI-0=HDMI-0
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAEQAAAB3vwCAAAAAvsAAAAcAFMAUwBIAE0AYQBuAGEAZwBlAHIARABvAGMAawAAAABMAAAB3gAAAR0BAAAD+wAAACIAUQB1AGkAYwBrAEMAbwBtAG0AYQBuAGQAcwBEAG8AYwBrAAAAAAD/////AAABggEAAAMAAAOPAAACXAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAAPP/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+
+[Notification Messages]
+CloseAllTabs=true
+ShowPasteHugeTextWarning=false
+
+[UiSettings]
+ColorScheme=

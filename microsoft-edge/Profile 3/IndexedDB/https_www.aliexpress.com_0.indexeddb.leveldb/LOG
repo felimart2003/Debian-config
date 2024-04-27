@@ -1,0 +1,7 @@
+2024/03/12-22:18:39.087 18b1 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.aliexpress.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/12-22:18:39.087 18b1 Recovering log #3
+2024/03/12-22:18:39.087 18b1 Reusing old log /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.aliexpress.com_0.indexeddb.leveldb/000003.log 
+2024/03/12-22:19:11.004 18b2 Level-0 table #5: started
+2024/03/12-22:19:11.007 18b2 Level-0 table #5: 845 bytes OK
+2024/03/12-22:19:11.010 18b2 Delete type=0 #3
+2024/03/12-22:19:11.010 18b2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

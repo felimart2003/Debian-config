@@ -1,0 +1,17 @@
+2024/03/25-00:21:44.765 1068 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Default/Local Extension Settings/amnbcmdbanbkjhnfoeceemmmdiepnbpp/MANIFEST-000001
+2024/03/25-00:21:44.765 1068 Recovering log #664
+2024/03/25-00:21:44.766 1068 Reusing old log /home/felipe/.config/microsoft-edge/Default/Local Extension Settings/amnbcmdbanbkjhnfoeceemmmdiepnbpp/000664.log 
+2024/03/25-00:21:51.579 1068 Level-0 table #668: started
+2024/03/25-00:21:51.595 1068 Level-0 table #668: 2449597 bytes OK
+2024/03/25-00:21:51.599 1068 Delete type=0 #664
+2024/03/25-00:21:51.600 1068 Compacting 4@0 + 2@1 files
+2024/03/25-00:21:51.628 1068 Generated table #669@0: 18 keys, 2550806 bytes
+2024/03/25-00:21:51.631 1068 Generated table #670@0: 2 keys, 665 bytes
+2024/03/25-00:21:51.631 1068 Compacted 4@0 + 2@1 files => 2551471 bytes
+2024/03/25-00:21:51.637 1068 compacted to: files[ 0 2 2 0 0 0 0 ]
+2024/03/25-00:21:51.638 1068 Delete type=2 #668
+2024/03/25-00:21:51.638 1068 Delete type=2 #663
+2024/03/25-00:21:51.638 1068 Delete type=2 #641
+2024/03/25-00:21:51.638 1068 Delete type=2 #661
+2024/03/25-00:21:51.638 1068 Delete type=2 #659
+2024/03/25-00:21:51.638 1068 Delete type=2 #665

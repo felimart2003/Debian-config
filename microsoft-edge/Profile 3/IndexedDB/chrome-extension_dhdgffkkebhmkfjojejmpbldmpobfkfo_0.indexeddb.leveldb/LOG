@@ -1,0 +1,12 @@
+2024/04/27-14:32:10.029 c60 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/chrome-extension_dhdgffkkebhmkfjojejmpbldmpobfkfo_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/27-14:32:10.029 c60 Recovering log #37
+2024/04/27-14:32:10.048 c60 Reusing old log /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/chrome-extension_dhdgffkkebhmkfjojejmpbldmpobfkfo_0.indexeddb.leveldb/000037.log 
+2024/04/27-14:32:56.888 c60 Level-0 table #43: started
+2024/04/27-14:32:56.900 c60 Level-0 table #43: 1298395 bytes OK
+2024/04/27-14:32:56.905 c60 Delete type=0 #37
+2024/04/27-17:26:24.250 c5f Compacting 1@1 + 1@2 files
+2024/04/27-17:26:24.263 c5f Generated table #44@1: 61 keys, 11835 bytes
+2024/04/27-17:26:24.263 c5f Compacted 1@1 + 1@2 files => 11835 bytes
+2024/04/27-17:26:24.266 c5f compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/27-17:26:24.266 c5f Delete type=2 #40
+2024/04/27-17:26:24.267 c5f Delete type=2 #43

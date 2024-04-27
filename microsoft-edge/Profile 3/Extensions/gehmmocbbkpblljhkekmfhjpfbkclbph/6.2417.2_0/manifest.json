@@ -1,0 +1,65 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background-42a39032.js", "background-43dd7041.js", "background-605be8c8.js", "background-9a8b795a.js", "background-c376993a.js", "background-ec3394f2.js", "background-f04f9f25.js", "background-f0e0f4c5.js", "background-fff8d0ed.js", "extension-vendors-6575d636.js", "extension-vendors-72e1f408.js", "extension-vendors-8fdd70aa.js", "extension-vendors-9ebd23ae.js", "extension-vendors-ab28add5.js", "extension-vendors-c30f4496.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "icons/action/icon_loading.png",
+         "32": "icons/action/icon_loading@2x.png"
+      },
+      "default_popup": "popup/index.html",
+      "default_title": "Dashlane"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Ctrl+Shift+L"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "content/webui/webui-frame.css" ],
+      "exclude_globs": [ "*://www.google.*/*sourceid=chrome-instant*", "*://www.google.*/blank.html*" ],
+      "exclude_matches": [ "*://platform.twitter.com/widgets/*", "*://www.facebook.com/plugins/*", "*://plusone.google.com/_/+1/*" ],
+      "js": [ "content/contentScripts/kwift.CHROME.js", "content/injected/vendors.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "content/contentScripts/dashlane-saml-intercept-script.js" ],
+      "match_about_blank": false,
+      "matches": [ "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "exclude_globs": [ "*://www.google.*/*sourceid=chrome-instant*", "*://www.google.*/blank.html*" ],
+      "exclude_matches": [ "*://platform.twitter.com/widgets/*", "*://www.facebook.com/plugins/*", "*://plusone.google.com/_/+1/*" ],
+      "js": [ "content/contentScripts/dashlane-page-scripts-installer.js" ],
+      "matches": [ "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'wasm-eval' 'wasm-unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_ExtensionShortDescription__",
+   "icons": {
+      "128": "icons/icon-dashlane-128px.png",
+      "16": "icons/icon-dashlane-16px.png",
+      "48": "icons/icon-dashlane-48px.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnqo6gq6JC3x39SObkUm8UNlB9TnSboXnC7xvcVgjJNnv3ApNdHbApPkHiC+JTyCvNXDM3qekh3gAVrV3uvqYQjC7i8B5GSNgM6DSlGhYijDiAYLBAIDPg/0ni3OlzDU8D3IcjjbJQBjOdCEP7UPhE7jl5JeKLsOTYh7ncKKSNSAUNsvNFvuvKve+kbsg+2s4yiZnhSPMwKDjueMFDmI6Fh8c0We4vf5o6qo5ZgPTXYddVgVxh5ikQAysEGnJ3eXhplYjt66vsPkA5/zzcpRG0H0sxqYPgFmhlicvFPeEtp6Gc6eCMsUZsi3vW7WiHrvKAHs5yo5Lfo4yG1/ZtSOq6wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_ExtensionName__",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options/options.html"
+   },
+   "permissions": [ "http://*/*", "https://*/*", "contextMenus", "cookies", "idle", "privacy", "storage", "tabs", "unlimitedStorage", "webRequest", "webRequestBlocking" ],
+   "storage": {
+      "managed_schema": "managed-storage-schema.json"
+   },
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "6.2417.2",
+   "web_accessible_resources": [ "index.html", "loading.html", "content/injected/logo-autofill-known.svg", "content/injected/logo-autofill-unknown.svg", "content/injected/loader.png", "content/webui/index.html", "content/injected/vendors.js", "content/pageScripts/dashlane-webauthn-page-script.js", "content/pageScripts/dashlane-tiresias-page-script.js" ]
+}

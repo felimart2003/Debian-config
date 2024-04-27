@@ -1,0 +1,19 @@
+{
+   "author": "Simon Lammer",
+   "content_scripts": [ {
+      "css": [ "lichessARC.css" ],
+      "js": [ "lichessARC.js" ],
+      "matches": [ "*://*.lichess.org/*", "*://lichess.org/*" ]
+   } ],
+   "description": "Allows accepting a random challenge on Lichess.org",
+   "homepage_url": "https://github.com/SimonLammer/lichess-accept-random-challenge",
+   "icons": {
+      "128": "icons/128.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtdozjZPF1dYAJijEivGgeZ9OgGxCquteqeRQB154Kz4EnV8AfuLWAjPqIQ3AmleCnxrp34AfK6Ipujy0Rm1U/gTIHU0lx5edBUV7kRuCD1lygcsQxv7Nzv1LZdG8ekBXPt3pigJ1oJ895T3kNTBUL/hnIWrgU+bjKofC3arFuHQ8bg/wlD+TrrHNfH43H6+vkCGeJXJaR3FUKLEOKn3uzTlPxwb+PNnR0VsImi4te27MH5RrAZnzzwQh5Jj8hETmn3d0yUBdW5WQouwnMB8Z92cuLcNw6YAb7DYSXwEX4HfUTdhkN9cgMCsNtFchLo6nq8/Ll5ZDgHJBkMW0nRMSuQIDAQAB",
+   "manifest_version": 2,
+   "name": "LichessARC",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2"
+}

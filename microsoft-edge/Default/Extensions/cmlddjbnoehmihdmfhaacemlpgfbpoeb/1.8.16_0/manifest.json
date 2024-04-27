@@ -1,0 +1,37 @@
+{
+   "action": {
+      "default_icon": "icons/icon96.png",
+      "default_popup": "options.html",
+      "default_title": "Settings"
+   },
+   "author": "Elliot Waite",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "lib/jquery-3.6.1.min.js", "content-script.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Displays a rating bar (likes/dislikes) on the bottom of every YouTube™ video thumbnail.",
+   "host_permissions": [ "*://*.youtube.com/*", "*://*.returnyoutubedislikeapi.com/*" ],
+   "icons": {
+      "128": "icons/icon128.png",
+      "96": "icons/icon96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqYTTEkKVkgiLO1ACrjafYGHN9qxueRvEb+KbW4+P2UeTQ5CNTec65yHDKfffqQezl619bQzHk+MUU6g13wTEdu/eBtuDUA2OvFTKkurj7hGKCDwrc7MLyXaufzIJ0+JIEEMnqx5QtmmqjszIh72IdhMU+VUfPf9hoztT/NSffhLTkZZPNs9cyXCLUuW18+JD0aGHxVXJqGBC3NPqQjeKp6oLlwqcpmqnhapVtfD91qO55dSGI86V0UIY+Zl5ncAwOJqkiHsEnqK5bZKH3RIvg5ydldyTrJHJCZDtKK6onOVilaoO/YnbXaezEgJjJsviQ2quqUfBjB0DndwLD0QIYQIDAQAB",
+   "manifest_version": 3,
+   "name": "Thumbnail Rating Bar for YouTube™",
+   "options_ui": {
+      "browser_style": false,
+      "page": "options.html"
+   },
+   "permissions": [ "scripting", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.8.16",
+   "web_accessible_resources": [ {
+      "extension_ids": [  ],
+      "matches": [  ],
+      "resources": [ "css/bar-blue-gray.css", "css/bar-blue-gray-video-page.css", "css/bar-bottom-separator.css", "css/bar-bottom-tooltip.css", "css/bar-bottom.css", "css/bar-green-red.css", "css/bar-green-red-video-page.css", "css/bar-tooltip.css", "css/bar-top-separator.css", "css/bar-top-tooltip.css", "css/bar-top.css", "css/bar.css" ]
+   } ]
+}

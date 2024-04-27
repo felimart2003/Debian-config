@@ -1,0 +1,320 @@
+{
+   "badge_setting": {
+      "message": "On the Icon"
+   },
+   "badge_time": {
+      "message": "Display Time"
+   },
+   "btn_add": {
+      "message": "Add"
+   },
+   "btn_cancel": {
+      "message": "Cancel"
+   },
+   "btn_del": {
+      "message": "Delete"
+   },
+   "btn_edit": {
+      "message": "Edit"
+   },
+   "btn_enable": {
+      "message": "Enable"
+   },
+   "btn_save": {
+      "message": "Save"
+   },
+   "btn_saved": {
+      "message": "Saved"
+   },
+   "btn_speak": {
+      "message": "Speak"
+   },
+   "btn_stop": {
+      "message": "Stop"
+   },
+   "command_saytime": {
+      "message": "Announce the time"
+   },
+   "dnd_audible": {
+      "message": "When playing other video/audio in browser"
+   },
+   "dnd_audible_desc": {
+      "message": "Such as watching videos, playing music, participating in video conferences, etc. in the browser"
+   },
+   "dnd_fullscreen": {
+      "message": "When the browser enters full screen"
+   },
+   "dnd_fullscreen_desc": {
+      "message": "Such as doing a presentation in fullscreen in browser"
+   },
+   "dnd_label": {
+      "message": "Do Not Disturb"
+   },
+   "dnd_locked": {
+      "message": "When the system is locked"
+   },
+   "dnd_locked_desc": {
+      "message": "The system is locked but not in sleep state (it never alarms if in sleep)"
+   },
+   "extDescription": {
+      "message": "Announce the time periodically, set custom recurring reminders and display time."
+   },
+   "extName": {
+      "message": "Talking Clock"
+   },
+   "hour_12": {
+      "message": "12-hour"
+   },
+   "hour_24": {
+      "message": "24-hour"
+   },
+   "hour_format": {
+      "message": "Hour Format"
+   },
+   "invalid_content": {
+      "message": "Please input content"
+   },
+   "invalid_date": {
+      "message": "Please input date"
+   },
+   "invalid_days": {
+      "message": "Please select at least one day"
+   },
+   "invalid_time": {
+      "message": "Please input time"
+   },
+   "keyboard_shortcuts": {
+      "message": "Keyboard Shortcuts"
+   },
+   "max_day_in_month": {
+      "message": "No $1 in $2"
+   },
+   "month_1": {
+      "message": "January"
+   },
+   "month_10": {
+      "message": "October"
+   },
+   "month_11": {
+      "message": "November"
+   },
+   "month_12": {
+      "message": "December"
+   },
+   "month_2": {
+      "message": "February"
+   },
+   "month_3": {
+      "message": "March"
+   },
+   "month_4": {
+      "message": "April"
+   },
+   "month_5": {
+      "message": "May"
+   },
+   "month_6": {
+      "message": "June"
+   },
+   "month_7": {
+      "message": "July"
+   },
+   "month_8": {
+      "message": "August"
+   },
+   "month_9": {
+      "message": "September"
+   },
+   "month_end": {
+      "message": "The last day"
+   },
+   "mute_label": {
+      "message": "Mute all notifications and voices"
+   },
+   "mute_text": {
+      "message": "Mute"
+   },
+   "mute_warning": {
+      "message": "All notifications and voices are muted."
+   },
+   "notify_button_settings": {
+      "message": "Extension Settings"
+   },
+   "notify_close_1": {
+      "message": "Close after 1 minute"
+   },
+   "notify_close_10": {
+      "message": "Close after 10 minutes"
+   },
+   "notify_close_3": {
+      "message": "Close after 3 minutes"
+   },
+   "notify_close_5": {
+      "message": "Close after 5 minutes"
+   },
+   "notify_close_auto": {
+      "message": "Close after a few seconds"
+   },
+   "notify_close_never": {
+      "message": "Close manually"
+   },
+   "notify_task_title": {
+      "message": "Reminder"
+   },
+   "notify_time_title": {
+      "message": "Current Time"
+   },
+   "notify_ways": {
+      "message": "Actions"
+   },
+   "options_title": {
+      "message": "Talking Clock Settings"
+   },
+   "popup_clock_analog": {
+      "message": "Display Analog Clock"
+   },
+   "popup_clock_digital": {
+      "message": "Display Digital Clock"
+   },
+   "popup_date": {
+      "message": "Display Date"
+   },
+   "popup_reminder": {
+      "message": "Display Today's Next Reminders"
+   },
+   "popup_reminder_header": {
+      "message": "Today's Next Reminders"
+   },
+   "popup_second": {
+      "message": "Display Seconds"
+   },
+   "popup_setting": {
+      "message": "Click the Icon"
+   },
+   "reminder_content": {
+      "message": "Content"
+   },
+   "reminder_date": {
+      "message": "Date"
+   },
+   "reminder_days": {
+      "message": "Days"
+   },
+   "reminder_edit_title": {
+      "message": "Set Reminder"
+   },
+   "reminder_expired": {
+      "message": "Expired"
+   },
+   "reminder_time": {
+      "message": "Time"
+   },
+   "reminder_type": {
+      "message": "Repeat"
+   },
+   "repeat_day": {
+      "message": "Every Day"
+   },
+   "repeat_month": {
+      "message": "Every Month"
+   },
+   "repeat_once": {
+      "message": "Only Once"
+   },
+   "repeat_week": {
+      "message": "Every Week"
+   },
+   "repeat_year": {
+      "message": "Every Year"
+   },
+   "shortcuts_for": {
+      "message": "(Activate the extension and Announce the time)"
+   },
+   "system_notify": {
+      "message": "System Notification"
+   },
+   "tab_icon": {
+      "message": "Clock"
+   },
+   "tab_other": {
+      "message": "Others"
+   },
+   "tab_reminder": {
+      "message": "Custom Reminders"
+   },
+   "tab_time": {
+      "message": "Time Reminder"
+   },
+   "tab_tts": {
+      "message": "Text to Speech"
+   },
+   "timer_interval": {
+      "message": "Announce Interval"
+   },
+   "timer_interval_10": {
+      "message": "Every 10 minutes (0, 10, 20, 30, 40, 50, 60 minutes)"
+   },
+   "timer_interval_120": {
+      "message": "Every 2 hours (0, 2, 4, 6, 8, 10, 12 hours)"
+   },
+   "timer_interval_15": {
+      "message": "Every 15 minutes (0, 15, 30, 45, 60 minutes)"
+   },
+   "timer_interval_180": {
+      "message": "Every 3 hours (0, 3, 6, 9, 12 hours)"
+   },
+   "timer_interval_20": {
+      "message": "Every 20 minutes (0, 20, 40, 60 minutes)"
+   },
+   "timer_interval_30": {
+      "message": "Every 30 minutes (0, 30, 60 minutes)"
+   },
+   "timer_interval_5": {
+      "message": "Every 5 minutes (0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60 minutes)"
+   },
+   "timer_interval_60": {
+      "message": "Every 1 hour (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 hours)"
+   },
+   "tts_desc": {
+      "message": "Web TTS includes the TTS provided by the operating system and the remote TTS provided by the browser. The former can be configured in the OS settings, the latter depends on the network connection."
+   },
+   "tts_engine": {
+      "message": "Voice"
+   },
+   "tts_rate": {
+      "message": "Rate"
+   },
+   "tts_summary": {
+      "message": "About Text-to-Speech(TTS)"
+   },
+   "tts_test_text": {
+      "message": "Test Content"
+   },
+   "tts_volume": {
+      "message": "Volume"
+   },
+   "voice_notify": {
+      "message": "Voice Announcement"
+   },
+   "week_0": {
+      "message": "Sun"
+   },
+   "week_1": {
+      "message": "Mon"
+   },
+   "week_2": {
+      "message": "Tue"
+   },
+   "week_3": {
+      "message": "Wed"
+   },
+   "week_4": {
+      "message": "Thu"
+   },
+   "week_5": {
+      "message": "Fri"
+   },
+   "week_6": {
+      "message": "Sat"
+   }
+}

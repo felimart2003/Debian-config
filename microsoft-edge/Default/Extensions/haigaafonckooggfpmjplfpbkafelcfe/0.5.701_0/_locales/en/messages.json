@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Updates lichess.org sounds with the soothing voice of Dmitry Komarov"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "dmitlichess"
+   }
+}

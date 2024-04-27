@@ -1,0 +1,14 @@
+body.lichessTools th.lichessTools-explorerGambits {
+  text-align:center;
+}
+
+body.lichessTools .explorer-box .moves td.lichessTools-explorerGambits {
+  width: 3.5em;
+  text-align:center;
+  font-size:smaller;
+}
+
+body.lichessTools .explorer-box .moves td.lichessTools-bar {
+  width:100%;
+  padding-right:0;
+}

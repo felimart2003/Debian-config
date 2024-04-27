@@ -1,0 +1,43 @@
+[Print Settings]
+cups-OverLongLines=WrapAtWidth
+cups-TabWidth=8
+cups-page-right=2
+evince-print-setting-page-autorotate=true
+cups-job-priority=50
+cups-page-left=5
+cups-number-up=1
+evince-print-setting-page-size=false
+cover-before=none
+cups-Pagination=True
+cups-page-top=2
+evince-print-setting-page-scale=1
+print-at-time=
+cups-page-bottom=2
+cover-after=none
+print-at=now
+printer=CLX-3180
+cups-job-sheets=none,none
+
+cups-ColorModel=Gray
+default-source=Auto
+cups-BlackOptimization=False
+media-type=Plain
+cups-EnvTemparature=NN
+cups-CurlReduction=On
+cups-MediaType=Plain
+cups-JCLRGB=Standard
+cups-Quality=600x600_Best
+cups-EdgeControl=Normal
+cups-Screen=Enhanced
+cups-InputSlot=Auto
+
+[Page Setup]
+PPDName=Letter
+DisplayName=US Letter
+Width=215.89999389648438
+Height=279.39999389648438
+MarginTop=6.3499999999999996
+MarginBottom=14.224
+MarginLeft=6.3499999999999996
+MarginRight=6.3499999999999996
+Orientation=portrait

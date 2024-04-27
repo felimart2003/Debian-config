@@ -1,0 +1,15 @@
+2024/03/12-23:41:47.392 18b2 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/12-23:41:47.392 18b2 Recovering log #4
+2024/03/12-23:41:47.393 18b2 Reusing old log /home/felipe/.config/microsoft-edge/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000004.log 
+2024/03/13-00:53:06.028 18b2 Level-0 table #8: started
+2024/03/13-00:53:06.035 18b2 Level-0 table #8: 224869 bytes OK
+2024/03/13-00:53:06.040 18b2 Delete type=0 #4
+2024/03/13-00:53:06.041 18b2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/03/13-00:53:06.041 18b2 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x03\x01'\x002\x001\x00c\x002\x00b\x008\x002\x002\x009\x00c\x007\x000\x00e\x00f\x00a\x004\x00f\x006\x004\x003\x005\x00c\x00f\x003\x002\x005\x001\x000\x00f\x002\x00d\x005\x00_\x003\x00_\x001\x00:\x000\x000' @ 1435 : 0
+2024/03/13-00:53:06.041 18b2 Compacting 1@1 + 1@2 files
+2024/03/13-00:53:06.046 18b2 Generated table #9@1: 269 keys, 59652 bytes
+2024/03/13-00:53:06.046 18b2 Compacted 1@1 + 1@2 files => 59652 bytes
+2024/03/13-00:53:06.050 18b2 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/13-00:53:06.050 18b2 Delete type=2 #8
+2024/03/13-00:53:06.050 18b2 Delete type=2 #5
+2024/03/13-00:53:06.050 18b2 Manual compaction at level-1 from '\x00\x01\x03\x03\x01'\x002\x001\x00c\x002\x00b\x008\x002\x002\x009\x00c\x007\x000\x00e\x00f\x00a\x004\x00f\x006\x004\x003\x005\x00c\x00f\x003\x002\x005\x001\x000\x00f\x002\x00d\x005\x00_\x003\x00_\x001\x00:\x000\x000' @ 1435 : 0 .. (end); will stop at (end)

@@ -1,0 +1,6 @@
+2024/03/12-23:41:42.998 18b1 Creating DB /home/felipe/.config/microsoft-edge/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb since it was missing.
+2024/03/12-23:41:43.007 18b1 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/13-00:03:44.528 18b2 Level-0 table #5: started
+2024/03/13-00:03:44.547 18b2 Level-0 table #5: 3529871 bytes OK
+2024/03/13-00:03:44.552 18b2 Delete type=0 #3
+2024/03/13-00:03:44.553 18b2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

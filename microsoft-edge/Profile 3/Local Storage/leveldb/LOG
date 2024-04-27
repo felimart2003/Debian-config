@@ -1,0 +1,26 @@
+2024/04/27-14:32:09.177 4 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/Local Storage/leveldb/MANIFEST-000001
+2024/04/27-14:32:09.178 4 Recovering log #462
+2024/04/27-14:32:09.179 4 Reusing old log /home/felipe/.config/microsoft-edge/Profile 3/Local Storage/leveldb/000462.log 
+2024/04/27-14:55:00.415 4 Level-0 table #468: started
+2024/04/27-14:55:00.422 4 Level-0 table #468: 26491 bytes OK
+2024/04/27-14:55:00.429 4 Delete type=0 #462
+2024/04/27-15:40:52.007 6 Level-0 table #470: started
+2024/04/27-15:40:52.021 6 Level-0 table #470: 78909 bytes OK
+2024/04/27-15:40:52.028 6 Delete type=0 #467
+2024/04/27-15:47:51.566 4 Level-0 table #472: started
+2024/04/27-15:47:51.578 4 Level-0 table #472: 492634 bytes OK
+2024/04/27-15:47:51.583 4 Delete type=0 #469
+2024/04/27-17:24:40.293 6 Level-0 table #474: started
+2024/04/27-17:24:40.305 6 Level-0 table #474: 15550 bytes OK
+2024/04/27-17:24:40.312 6 Delete type=0 #471
+2024/04/27-17:24:40.314 6 Compacting 4@0 + 2@1 files
+2024/04/27-17:24:40.353 6 Generated table #475@0: 1402 keys, 2314537 bytes
+2024/04/27-17:24:40.367 6 Generated table #476@0: 215 keys, 941022 bytes
+2024/04/27-17:24:40.367 6 Compacted 4@0 + 2@1 files => 3255559 bytes
+2024/04/27-17:24:40.370 6 compacted to: files[ 0 5 1 0 0 0 0 ]
+2024/04/27-17:24:40.371 6 Delete type=2 #464
+2024/04/27-17:24:40.371 6 Delete type=2 #468
+2024/04/27-17:24:40.371 6 Delete type=2 #472
+2024/04/27-17:24:40.371 6 Delete type=2 #470
+2024/04/27-17:24:40.371 6 Delete type=2 #465
+2024/04/27-17:24:40.371 6 Delete type=2 #474

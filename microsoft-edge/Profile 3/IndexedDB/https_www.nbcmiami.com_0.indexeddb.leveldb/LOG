@@ -1,0 +1,6 @@
+2024/04/05-18:54:50.011 e78 Creating DB /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.nbcmiami.com_0.indexeddb.leveldb since it was missing.
+2024/04/05-18:54:50.019 e78 Reusing MANIFEST /home/felipe/.config/microsoft-edge/Profile 3/IndexedDB/https_www.nbcmiami.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/05-18:54:58.270 e78 Level-0 table #5: started
+2024/04/05-18:54:58.273 e78 Level-0 table #5: 840 bytes OK
+2024/04/05-18:54:58.277 e78 Delete type=0 #3
+2024/04/05-18:54:58.277 e78 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

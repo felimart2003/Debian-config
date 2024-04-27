@@ -1,0 +1,16 @@
+<svg width="20" height="20" fill="none"
+  xmlns="http://www.w3.org/2000/svg">
+  <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+    <path fill="#C4C4C4" d="M0 0h20v20H0z"/>
+  </mask>
+  <g mask="url(#a)">
+    <rect x="3.33398" y="2.66675" width="16.6667" height="17.3333" rx="1.33333" fill="#161616"/>
+    <rect x="1.66602" y="1.33325" width="16.6667" height="17.3333" rx="1.33333" fill="#335267"/>
+    <rect width="16.6667" height="17.3333" rx="1.33333" fill="#EBEBEB"/>
+    <path d="M0 1.33333C0 .596953.596954 0 1.33333 0H15.3333c.7364 0 1.3334.596954 1.3334 1.33333v2H0v-2z" fill="#161616"/>
+    <circle cx="1.83398" cy="1.66675" fill="#D7323E" r=".5"/>
+    <circle cx="3.5" cy="1.66675" fill="#F8C06D" r=".5"/>
+    <circle cx="5.16602" cy="1.66675" fill="#52A078" r=".5"/>
+    <path fill="#83C2D6" d="M2 5h6.33334v1.33333H2zM10.166 8h4.5v1.33333h-4.5zM5 8h3.33333v1.33333H5zM2 11h8.33333v1.33334H2zM4.16602 14h8.33334v1.33333H4.16602z"/>
+  </g>
+</svg>

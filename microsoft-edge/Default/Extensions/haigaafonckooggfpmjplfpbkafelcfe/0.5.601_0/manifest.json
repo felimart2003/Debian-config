@@ -1,0 +1,36 @@
+{
+   "browser_action": {
+      "default_icon": "images/dmitri.png",
+      "default_popup": "popup.html",
+      "default_title": "dmitlichess"
+   },
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "vincent@vincentsimard.com",
+         "strict_min_version": "57.0"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [  ],
+      "js": [ "vendor/webextension-polyfill/dist/browser-polyfill.min.js", "scripts/UserPrefs.js", "scripts/AudioUtils.js", "scripts/MutationUtils.js", "scripts/AudioQueue.js", "scripts/MoveEmitter.js", "scripts/GameStateEmitter.js", "scripts/Dmitlichess.js" ],
+      "matches": [ "http://*.lichess.org/*", "https://*.lichess.org/*" ],
+      "run_at": "document_idle"
+   } ],
+   "default_locale": "en",
+   "description": "Adds top-level grandmaster commentary to lichess.org (audio)",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkEE49or8ipbgzcmqowcsHWynLntLMy/WN4n/DgKnnc6N4fOjjUH6kHj+9zti6lCG8KF1LQMuz3W3id9peNERh5K8aY1foPDtBYgKR1CekQ2O15EiKX0wKrm8HTUCqFf+QLNfNOZExyLpQ+zvOEB/jtXL7hU45jSTKi0WjixP8otJLw+tk3+lexUNhVC3X4M4hXHYg4+xhLsHzSOpzMEXz63M1Qldd5CXtuWQxqFPcAH8AUb4oL5luwFy+K11HCjv4wanoMm2/Y/D8nt+qLNVvdM/OAonPgfjxuiUHXqd1tRjf4idRJHewsMfnHHHRYeSDksGKsKkbNAfXkWPZTGDuwIDAQAB",
+   "manifest_version": 2,
+   "name": "dmitlichess",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.5.601",
+   "web_accessible_resources": [ "ogg/*" ]
+}
