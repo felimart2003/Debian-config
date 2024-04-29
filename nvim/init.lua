@@ -171,12 +171,17 @@ vim.opt.scrolloff = 10
 -- Substitue has global on by default (:%s/../../g)
 vim.opt.gdefault = true
 
+-- Smart indent
+vim.opt.smartindent = true
+
+
 -- INSERT MODE:
 -- exit insert mode
 vim.keymap.set("i", "jk", "<Esc>", { noremap = true })
 
 -- new line at the end of the file
 vim.keymap.set("i", "<C-g>", "<Esc>Go", { noremap = true })
+
 
 -- NORMAL MODE:
 -- Moving up and down
@@ -203,6 +208,7 @@ vim.keymap.set("n", "<Leader>/", ":noh<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<Leader>w", ":w<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<Leader>p", ":Commands<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<Leader>t", ":SymbolsOutline<CR>", { noremap = true, silent = true })
+
 
 ---------- ----------
 ---------- ----------
